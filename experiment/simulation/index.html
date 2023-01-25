@@ -1,13 +1,147 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en" dir="ltr">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/Loading.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
+		rel="stylesheet">
+
+	<link rel="icon" href="favicon.ico">
+	<title>Civil Engineering - Virtual Lab</title>
+
+
+
+</head>
+
+<body>
+
+
+	<body style="margin:0; font-family: verdana; color: #000;">
+		<table align="center">
+			<tr>
+				<td>
+					<div id="simscreen">
+						<div id="title">
+							<h3>flakiness index</h3>
+						</div>
+
+						<!-- Step 1 -->
+
+						<div class="Mainstep" id="Step1" style="visibility: visible;z-index: 1000;">
+
+							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+							<span class="circlebg"
+								style="position: absolute; top: 27px; left: 55px;">&nbsp;1&nbsp;</span></br>
+
+							<p class="incanvas" style="position: absolute; top: 55px; left: 0px;font-size:15px;">
+								<strong>Objective:</strong>
+							</p>
+
+							<p class="incanvas" style="position: absolute; top: 85px; left: 0px;font-size:14px;"> To
+								determine the flakiness index of the coarse aggregate.</p></br>
+
+							<p class="incanvas" style="position: absolute; top: 115px; left: 0px;font-size:15px;">
+								<strong>Apparatus used:</strong>
+							</p>
+
+							<p class="incanvas" style="position: absolute; top: 145px; left: 0px;font-size:14px;">
+								*************</p></br>
+							<img id="png" class="board" src="images/LAYOUT.png" alt="picture" width="500" height="330"
+								style="padding-left: 7% ; margin-top: 150px;"><br>
+							<input type="button" id="next"
+								style="position:absolute; left:662px; top:320px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
+								value="&nbsp;Start Here&nbsp;" onclick="step2()" />
+
+						</div>
+
+						<!-- Step 2 -->
+
+						<div class="Mainstep" id="Step2" style="visibility:hidden; z-index: 999;">
+
+							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+							<span class="circlebg"
+								style="position: absolute; top: 27px; left: 55px;">&nbsp;2&nbsp;</span></br>
+
+							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
+									aria-hidden="true">&nbsp;*******************************************************************</i>&nbsp;</span><br><br>
+
+							<img id="png1" class="board" src="images/FLAKINESS INDEX LAB 1.png" alt="picture"
+								width="605" height="385"
+								style="position: absolute;  margin-left: 70px; margin-top: 40px;">
+
+							<img id="png2" class="board" src="images/FLAKINESS INDEX LAB 2.png" alt="picture"
+								width="605" height="385"
+								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+							<img id="gif1" class="board" src="images/output-onlinegiftools (50).gif" alt="picture"
+								width="605" height="385" style="visibility: hidden; position: absolute;
+								margin-left: 70px;
+								margin-top: 40px;">
+
+							<img id="gif2" class="board" src="images/output-onlinegiftools (51).gif" alt="picture"
+								width="605" height="385" style="visibility: hidden; position: absolute;
+								margin-left: 70px;
+								margin-top: 40px;">
+
+							<img id="gif3" class="board" src="images/output-onlinegiftools (52).gif" alt="picture"
+								width="605" height="385" style="visibility: hidden; position: absolute;
+								margin-left: 70px;
+								margin-top: 40px;">
+
+							<img id="arr1" class="board" src="images/arrow left.gif" alt="picture" width="85"
+								height="50" style="visibility: visible; position: absolute;
+								margin-left: 41rem;
+								margin-top: 112px;">
+
+							<img id="arr2" class="board" src="images/arrow.gif" alt="picture" width="75" height="30"
+								style="visibility: hidden;
+								position: absolute; margin-left: 6rem; margin-top: 381px;">
+
+							<img id="arr3" class="board" src="images/arrow left.gif" alt="picture" width="85"
+								height="50" style="visibility: hidden; position: absolute;
+								margin-left: 20rem;
+								margin-top: 312px;">
+
+							<img id="trans1" class="board" src="images/transbox.png" alt="picture" width="170"
+								height="70"
+								style="visibility: visible; position: absolute; margin-left: 472px; margin-top: 100px;"
+								onclick="moveplate()">
+
+							<img id="trans2" class="board" src="images/transbox.png" alt="picture" width="50"
+								height="30" style="visibility: hidden; position: absolute;
+								margin-left: 145px;
+								margin-top: 383px;" onclick="moveplate1()">
+
+							<img id="trans3" class="board" src="images/transbox.png" alt="picture" width="170"
+								height="70" style="visibility: hidden; position: absolute;
+								margin-left: 161px;
+								margin-top: 297px;" onclick="moveplate2()">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+
+	<script src="./js/main.js"></script>
+
 </html>
