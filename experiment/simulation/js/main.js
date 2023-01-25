@@ -100,3 +100,14 @@ function myStopFunction3() {
     clearTimeout(myTimeout3);
 
 }
+
+// step3
+
+function step3() {
+    document.getElementById("Step3").style.visibility = "visible";
+    document.getElementById("Step2").style.visibility = "hidden";
+    document.getElementById("next1").style.visibility = "hidden";
+    document.getElementById("gif3").style.visibility = "hidden";
+    document.getElementById("arr1").style.visibility = "hidden";
+
+}
