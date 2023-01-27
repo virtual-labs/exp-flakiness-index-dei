@@ -139,3 +139,26 @@ function step4() {
     document.getElementById("assemble").style.visibility = "hidden";
 
 }
+
+function moveplate4() {
+
+    document.getElementById("gif5").style.visibility = "visible";
+    document.getElementById("png4").style.visibility = "hidden";
+    document.getElementById("arr5").style.visibility = "hidden";
+    document.getElementById("trans5").style.visibility = "hidden";
+
+    myTimeout5 = setTimeout(myGreeting5, 7500);
+}
+
+
+function myGreeting5() {
+    document.getElementById("next3").style.visibility = "visible";
+    myStopFunction5();
+}
+
+
+function myStopFunction5() {
+
+    clearTimeout(myTimeout5);
+    
+}
