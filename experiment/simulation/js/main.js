@@ -162,3 +162,18 @@ function myStopFunction5() {
     clearTimeout(myTimeout5);
     
 }
+
+
+// Step5
+
+function step5() {
+
+    document.getElementById("Step5").style.visibility = "visible";
+    document.getElementById("Step4").style.visibility = "hidden";
+    document.getElementById("next3").style.visibility = "hidden";
+    document.getElementById("gif5").style.visibility = "hidden";
+    document.getElementById("png4").style.visibility = "hidden";
+    document.getElementById("trans5").style.visibility = "hidden";
+    document.getElementById("arr5").style.visibility = "hidden";
+
+}
