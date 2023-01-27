@@ -177,3 +177,58 @@ function step5() {
     document.getElementById("arr5").style.visibility = "hidden";
 
 }
+
+
+function moveplate5() {
+debugger;
+    document.getElementById("gif6").style.visibility = "visible";
+    document.getElementById("png5").style.visibility = "hidden";
+    document.getElementById("arr6").style.visibility = "hidden";
+    document.getElementById("trans6").style.visibility = "hidden";
+
+    myTimeout6 = setTimeout(myGreeting6, 1500);
+}
+
+
+
+// time function
+
+function myGreeting6() {debugger;
+    document.getElementById("arr7").style.visibility = "visible";
+    document.getElementById("trans7").style.visibility = "visible";
+    myStopFunction5();
+}
+
+
+function myStopFunction6() {
+
+    clearTimeout(myTimeout6);
+    
+}
+
+function moveplate6() {
+debugger;
+    document.getElementById("gif7").style.visibility = "visible";
+    document.getElementById("gif6").style.visibility = "hidden";
+    document.getElementById("arr7").style.visibility = "hidden";
+    document.getElementById("trans7").style.visibility = "hidden";
+
+    myTimeout7 = setTimeout(myGreeting7, 1500);
+}
+
+
+
+// time function
+
+function myGreeting7() {debugger;
+    // document.getElementById("arr8").style.visibility = "visible";
+    // document.getElementById("trans8").style.visibility = "visible";
+    myStopFunction7();
+}
+
+
+function myStopFunction7() {
+
+    clearTimeout(myTimeout7);
+    
+}
