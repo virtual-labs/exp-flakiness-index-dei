@@ -1,1 +1,1 @@
-### Aim of the experiment
+### To determine the flakiness index of the coarse aggregate 
