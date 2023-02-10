@@ -839,9 +839,10 @@ function moveplate25() {
 
 function myGreeting26() {
 
-    // document.getElementById("gif10").style.visibility = "hidden";
+    document.getElementById("gif28").style.visibility = "visible";
     document.getElementById("next7").style.visibility = "visible";
-    
+    document.getElementById("gif27").style.visibility = "hidden";
+
 
     myStopFunction26();
 }
@@ -852,8 +853,68 @@ function myStopFunction26() {
     clearTimeout(myTimeout26);
 
 }
- 
- 
+
+// Step9
+
+function step9() {
+
+    document.getElementById("Step9").style.visibility = "visible";
+    document.getElementById("Step8").style.visibility = "hidden";
+    document.getElementById("next7").style.visibility = "hidden";
+    document.getElementById("gif28").style.visibility = "hidden";
+    document.getElementById("png9").style.visibility = "hidden";
+    // document.getElementById("png6").style.visibility = "hidden";
+    document.getElementById("arr15").style.visibility = "hidden";
+    document.getElementById("trans15").style.visibility = "hidden";
+    
+}
+
+function moveplate26() {
+
+    document.getElementById("gif29").style.visibility = "visible";
+    document.getElementById("png10").style.visibility = "hidden";
+    document.getElementById("arr27").style.visibility = "hidden";
+    document.getElementById("trans27").style.visibility = "hidden";
+
+    myTimeout27 = setTimeout(myGreeting27, 6000);
+}
+
+
+
+// time function
+
+function myGreeting27() {
+
+    
+    document.getElementById("next8").style.visibility = "visible";
+    
+
+    myStopFunction27();
+}
+
+
+function myStopFunction27() {
+
+    clearTimeout(myTimeout27);
+
+}
+
+// Step10
+
+function step10() {
+
+    document.getElementById("Step10").style.visibility = "visible";
+    document.getElementById("Step9").style.visibility = "hidden";
+    document.getElementById("next8").style.visibility = "hidden";
+    document.getElementById("gif29").style.visibility = "hidden";
+    document.getElementById("png10").style.visibility = "hidden";
+    // document.getElementById("png6").style.visibility = "hidden";
+    document.getElementById("arr27").style.visibility = "hidden";
+    document.getElementById("trans27").style.visibility = "hidden";
+    
+}
+
+
 
 
 
