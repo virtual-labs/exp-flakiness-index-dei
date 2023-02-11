@@ -1101,6 +1101,68 @@ function myStopFunction33() {
 
 }
 
+// Step11
+
+function step11() {
+
+    document.getElementById("Step11").style.visibility = "visible";
+    document.getElementById("Step10").style.visibility = "hidden";
+    document.getElementById("next9").style.visibility = "hidden";
+    document.getElementById("gif36").style.visibility = "hidden";
+    document.getElementById("png11").style.visibility = "hidden";
+    document.getElementById("arr28").style.visibility = "hidden";
+    document.getElementById("trans28").style.visibility = "hidden";
+    
+}
+
+function moveplate33() {
+
+    document.getElementById("gif37").style.visibility = "visible";
+    document.getElementById("png12").style.visibility = "hidden";
+    document.getElementById("arr34").style.visibility = "hidden";
+    document.getElementById("trans34").style.visibility = "hidden";
+
+    myTimeout34 = setTimeout(myGreeting34, 5000);
+}
+
+
+
+// time function
+
+function myGreeting34() {
+
+    
+    // document.getElementById("gif36").style.visibility = "visible";
+    document.getElementById("next10").style.visibility = "visible";
+    
+
+    myStopFunction34();
+}
+
+
+function myStopFunction34() {
+
+    clearTimeout(myTimeout34);
+
+}
+
+// Step12
+
+function step12() {
+
+    document.getElementById("Step12").style.visibility = "visible";
+    document.getElementById("Step11").style.visibility = "hidden";
+    document.getElementById("next10").style.visibility = "hidden";
+    document.getElementById("gif37").style.visibility = "hidden";
+    document.getElementById("png12").style.visibility = "hidden";
+    document.getElementById("arr34").style.visibility = "hidden";
+    document.getElementById("trans34").style.visibility = "hidden";
+    
+}
+
+
+
+
 
 
 
