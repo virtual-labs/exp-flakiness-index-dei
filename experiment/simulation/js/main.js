@@ -914,6 +914,197 @@ function step10() {
     
 }
 
+function moveplate27() {
+
+    document.getElementById("gif30").style.visibility = "visible";
+    document.getElementById("png11").style.visibility = "hidden";
+    document.getElementById("arr28").style.visibility = "hidden";
+    document.getElementById("trans28").style.visibility = "hidden";
+
+    myTimeout28 = setTimeout(myGreeting28, 6000);
+}
+
+
+
+// time function
+
+function myGreeting28() {
+
+    
+    document.getElementById("arr29").style.visibility = "visible";
+    document.getElementById("trans29").style.visibility = "visible";
+    
+
+    myStopFunction28();
+}
+
+
+function myStopFunction28() {
+
+    clearTimeout(myTimeout28);
+
+}
+
+function moveplate28() {
+
+    document.getElementById("gif31").style.visibility = "visible";
+    document.getElementById("gif30").style.visibility = "hidden";
+    document.getElementById("arr29").style.visibility = "hidden";
+    document.getElementById("trans29").style.visibility = "hidden";
+
+    myTimeout29 = setTimeout(myGreeting29, 6000);
+}
+
+
+
+// time function
+
+function myGreeting29() {
+
+    
+    document.getElementById("arr30").style.visibility = "visible";
+    document.getElementById("trans30").style.visibility = "visible";
+    
+
+    myStopFunction29();
+}
+
+
+function myStopFunction29() {
+
+    clearTimeout(myTimeout29);
+
+}
+
+function moveplate29() {
+
+    document.getElementById("gif32").style.visibility = "visible";
+    document.getElementById("gif31").style.visibility = "hidden";
+    document.getElementById("arr30").style.visibility = "hidden";
+    document.getElementById("trans30").style.visibility = "hidden";
+
+    myTimeout30 = setTimeout(myGreeting30, 6000);
+}
+
+
+
+// time function
+
+function myGreeting30() {
+
+    
+    document.getElementById("arr31").style.visibility = "visible";
+    document.getElementById("trans31").style.visibility = "visible";
+    
+
+    myStopFunction30();
+}
+
+
+function myStopFunction30() {
+
+    clearTimeout(myTimeout30);
+
+}
+
+function moveplate30() {
+
+    document.getElementById("gif33").style.visibility = "visible";
+    document.getElementById("gif32").style.visibility = "hidden";
+    document.getElementById("arr31").style.visibility = "hidden";
+    document.getElementById("trans31").style.visibility = "hidden";
+
+    myTimeout31 = setTimeout(myGreeting31, 6000);
+}
+
+
+
+// time function
+
+function myGreeting31() {
+
+    
+    document.getElementById("arr32").style.visibility = "visible";
+    document.getElementById("trans32").style.visibility = "visible";
+    
+
+    myStopFunction31();
+}
+
+
+function myStopFunction31() {
+
+    clearTimeout(myTimeout31);
+
+}
+
+function moveplate31() {
+
+    document.getElementById("gif34").style.visibility = "visible";
+    document.getElementById("gif33").style.visibility = "hidden";
+    document.getElementById("arr32").style.visibility = "hidden";
+    document.getElementById("trans32").style.visibility = "hidden";
+
+    myTimeout32 = setTimeout(myGreeting32, 6000);
+}
+
+
+
+// time function
+
+function myGreeting32() {
+
+    
+    document.getElementById("arr33").style.visibility = "visible";
+    document.getElementById("trans33").style.visibility = "visible";
+    
+
+    myStopFunction32();
+}
+
+
+function myStopFunction32() {
+
+    clearTimeout(myTimeout32);
+
+}
+
+
+function moveplate32() {
+
+    document.getElementById("gif35").style.visibility = "visible";
+    document.getElementById("gif34").style.visibility = "hidden";
+    document.getElementById("arr33").style.visibility = "hidden";
+    document.getElementById("trans33").style.visibility = "hidden";
+
+    myTimeout33 = setTimeout(myGreeting33, 6000);
+}
+
+
+
+// time function
+
+function myGreeting33() {
+
+    
+    document.getElementById("gif36").style.visibility = "visible";
+    document.getElementById("next9").style.visibility = "visible";
+    
+
+    myStopFunction33();
+}
+
+
+function myStopFunction33() {
+
+    clearTimeout(myTimeout32);
+
+}
+
+
+
+
+
 
 
 
