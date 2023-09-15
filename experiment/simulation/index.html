@@ -31,24 +31,54 @@
       </header>
     <main>
       <div class="simulation-container">
+
         <h2 class="title">Flakiness Index</h2>
         
-        <!-- mainPage  -->
-        <div class="content-container" id="mainPage" style="visibility: visible;">
+        <!-- mainStep  -->
+        <div class="content-container" id="mainStep" style="visibility: visible;">
             <h3 class="instruction-main" style>Objective:</h3>
 
-            <p class="content-main" id="content"></p>
+            <p class="content-main" id="content">Some objective</p>
 
             <h3 class="instruction-main" style="top: 100px; width: 300px;">Instruments used:</h3>
 
             <p class="instruments">
-              
+              some instruments
             </p>
 
-            <img class="instruments-img" id="instruments-img-1" style="visibility: visible;" src="images/instruments.png" alt="Instruments"/>
+            <img class="instruments-img" id="instruments-img-1" src="images/instruments.png" alt="Instruments"/>
 
-            <button style="position: absolute; visibility: visible;" class="next" id="next-1" onclick="parent.location = './html/exp-list.html'"">Start</button>
+            <button class="next-exp" id="next-0">Start</button>
         </div>
+
+        <!-- STEP 1 -->
+
+      <div class="content-container steps" id="step1" style="visibility: hidden;">
+        
+        <div class="statement" id="statement">
+          <h3 class="step">
+            Step <span class="step-number">1</span>:
+          </h3>
+          <p class="intructions" id="instruction-step1">
+            Start exp
+          </p>
+        </div>
+
+        <!-- IMAGES  -->
+
+        <img class="exp-image-section" id="png1Step1" src="images/step1Images/png1-step1.png" alt="png1">
+
+        <!-- ARROWS -->
+
+        <img class="exp-arrows" id="arr1Step1" src="images/arrow left.gif" alt="arrow-left">
+
+        <!-- TRANSBOXES  -->
+
+        <img class="exp-transboxes" id="trans1Step1" src="images/transbox.png" alt="transbox">
+
+        </div>
+
+
       </div>
     </main>
   </body>
