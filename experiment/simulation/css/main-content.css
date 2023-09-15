@@ -91,15 +91,6 @@ main{
 
 /* IMAGES  */
 
-/* .transbox{
-    position: absolute;
-    border: 1px solid red;
-    left: 460px;
-    top: 215px;
-    width: 120px;
-    height: 85px;
-} */
-
 .instruments-img{
     position: absolute;
     width: 600px;
@@ -118,16 +109,16 @@ main{
 /* TRANSBOXES  */
 
 .exp-transboxes{
-    position: absolute;
     visibility: hidden;
+    position: absolute;
     border: 2px solid green;
 }
 
 /* ARROWS  */
 
-.exp-arrows{
-    position: absolute;
+.exp-arrows, .arr-next{
     visibility: hidden;
+    position: absolute;
     width: 50px;
 }
 
@@ -137,7 +128,7 @@ main{
     visibility: hidden;
     position: absolute;
     left: 730px;
-    top: 523px;
+    top: 520px;
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);

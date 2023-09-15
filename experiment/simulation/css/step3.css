@@ -1,0 +1,61 @@
+/* Step3  */
+
+/* #png1Step3,  */
+/* #gif1Step3, */
+/* #arr4Step3, #trans4Step3 ,*/
+ #nextToStep3
+{
+    visibility: visible;
+}
+
+/* TRANSBOXES  */
+
+#trans1Step3{
+    top: 235px;
+    left: 110px;
+    width: 45px;
+    height: 45px;
+}
+
+#trans2Step3{
+    top: 235px;
+    left: 175px;
+    width: 45px;
+    height: 45px;
+}
+
+#trans3Step3{
+    top: 295px;
+    left: 110px;
+    width: 45px;
+    height: 45px;
+}
+
+#trans4Step3{
+    top: 300px;
+    left: 180px;
+    width: 45px;
+    height: 45px;
+}
+
+/* ARROWS  */
+
+#arr1Step3{
+    top: 240px;
+    left: 70px;
+}
+
+#arr2Step3{
+    top: 240px;
+    left: 130px;
+}
+
+#arr3Step3{
+    top: 300px;
+    left: 60px;
+}
+
+#arr4Step3{
+    top: 300px;
+    left: 135px;
+}

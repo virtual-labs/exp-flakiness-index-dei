@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main-content.css" />
     <link rel="stylesheet" href="css/step1.css" />
+    <link rel="stylesheet" href="css/step2.css" />
+    <link rel="stylesheet" href="css/step3.css" />
+
     <script src="js/main.js" defer></script>
     <title>Virtual Labs</title>
   </head>
@@ -35,8 +38,10 @@
 
         <h2 class="title">Flakiness Index</h2>
         
+
         <!-- mainStep  -->
-        <div class="content-container" id="mainStep" style="visibility: visible;">
+
+        <div class="content-container" id="mainStep" style="visibility: hidden;">
             <h3 class="instruction-main" style>Objective:</h3>
 
             <p class="content-main" id="content">Some objective</p>
@@ -49,10 +54,12 @@
 
             <img class="instruments-img" id="instruments-img-1" src="images/instruments.png" alt="Instruments"/>
 
-            <button class="next-exp" id="next-0">Start</button>
+            <button class="next-exp" id="nextToStep1">Start</button>
         </div>
 
+
         <!-- STEP 1 -->
+
 
       <div class="content-container steps" id="step1" style="visibility: hidden;">
         
@@ -65,13 +72,31 @@
           </p>
         </div>
 
+
         <!-- IMAGES  -->
+
         <img class="exp-image-section" id="png1Step1" src="images/step1Images/png1-step1.png" alt="png1">
 
+        <img class="exp-image-section" id="png2Step1" src="images/step1Images/png2-step1.png" alt="png2">
+
+
         <!-- GIFS -->
+
         <img class="exp-image-section-gifs" id="gif1Step1" src="images/step1Images/gif1-step1.gif" alt="gif1">
 
         <img class="exp-image-section-gifs" id="gif2Step1" src="images/step1Images/gif2-step1.gif" alt="gif2">
+
+        <img class="exp-image-section-gifs" id="gif3Step1" src="images/step1Images/gif3-step1.gif" alt="gif3">
+
+
+        <!-- TRANSBOXES  -->
+
+        <img class="exp-transboxes" id="trans1Step1" src="images/transbox.png" alt="transbox">
+        
+        <img class="exp-transboxes" id="trans2Step1" src="images/transbox.png" alt="transbox">
+        
+        <img class="exp-transboxes" id="trans3Step1" src="images/transbox.png" alt="transbox">
+
 
         <!-- ARROWS -->
 
@@ -79,14 +104,173 @@
 
         <img class="exp-arrows" id="arr2Step1" src="images/arrow_right.gif" alt="arrow-right">
 
-        <!-- TRANSBOXES  -->
+        <img class="exp-arrows" id="arr3Step1" src="images/arrow_left.gif" alt="arrow-right">
 
-        <img class="exp-transboxes" id="trans1Step1" src="images/transbox.png" alt="transbox">
 
-        <img class="exp-transboxes" id="trans2Step1" src="images/transbox.png" alt="transbox">
-      
+        <!-- NEXT -->
 
+        <button class="next-exp" id="nextToStep2">Next</button>
+
+        <img class="arr-next" src="images/arrow_right.gif" alt="arr-next">
         </div>
+
+
+        <!-- STEP 2 -->
+
+
+        <div class="content-container steps" id="step2" style="visibility: hidden;">
+        
+          <div class="statement" id="statement">
+            <h3 class="step">
+              Step <span class="step-number">2</span>:
+            </h3>
+            <p class="intructions" id="instruction-step1">
+              Start experiment
+            </p>
+          </div>
+
+
+          <!-- IMAGES  -->
+
+          <img class="exp-image-section" id="png1Step2" src="images/step2Images/png1-step2.png" alt="png1">
+
+          <img class="exp-image-section" id="png2Step2" src="images/step2Images/png2-step2.png" alt="png2">
+
+          <img class="exp-image-section" id="png3Step2" src="images/step2Images/png3-step2.png" alt="png3">
+
+          <img class="exp-image-section" id="png4Step2" src="images/step2Images/png4-step2.png" alt="png4">
+
+
+          <!-- GIFS  -->
+
+          <img class="exp-image-section-gifs" id="gif1Step2" src="images/step2Images/gif1-step2.gif" alt="gif1">
+  
+          <img class="exp-image-section-gifs" id="gif2Step2" src="images/step2Images/gif2-step2.gif" alt="gif2">
+
+          <img class="exp-image-section-gifs" id="gif3Step2" src="images/step2Images/gif3-step2.gif" alt="gif3">
+
+          <img class="exp-image-section-gifs" id="gif4Step2" src="images/step2Images/gif4-step2.gif" alt="gif4">
+
+          <img class="exp-image-section-gifs" id="gif5Step2" src="images/step2Images/gif5-step2.gif" alt="gif5">
+
+          <img class="exp-image-section-gifs" id="gif6Step2" src="images/step2Images/gif6-step2.gif" alt="gif6">
+
+
+           <!-- TRANSBOXES  -->
+
+          <img class="exp-transboxes" id="trans1Step2" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans2Step2" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans3Step2" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans4Step2" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans5Step2" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans6Step2" src="images/transbox.png" alt="transbox">
+
+
+           <!-- ARROWS -->
+
+          <img class="exp-arrows" id="arr1Step2" src="images/arrow_right.gif" alt="arrow-right">
+
+          <img class="exp-arrows" id="arr2Step2" src="images/arrow_right.gif" alt="arrow-right">
+
+          <img class="exp-arrows" id="arr3Step2" src="images/arrow_right.gif" alt="arrow-right">
+
+          <img class="exp-arrows" id="arr4Step2" src="images/arrow_right.gif" alt="arrow-right">
+
+          <img class="exp-arrows" id="arr5Step2" src="images/arrow_right.gif" alt="arrow-right">
+
+          <img class="exp-arrows" id="arr6Step2" src="images/arrow_left.gif" alt="arrow-left">
+
+          <img class="exp-arrows" id="arr7Step2" src="images/arrow_right.gif" alt="arrow-right">
+
+          <!-- BUTTONS  -->
+
+          <button class="assemble" id="assembleStep2">Assemble</button>
+
+
+           <!-- NEXT -->
+
+          <button class="next-exp" id="nextToStep3">Next</button>
+
+          <img class="arr-next" src="images/arrow_right.gif" alt="arr-next">
+
+          </div>
+
+
+          <!-- STEP3  -->
+
+
+          <div class="content-container steps" id="step3" style="visibility: hidden;">
+        
+          <div class="statement" id="statement">
+            <h3 class="step">
+              Step <span class="step-number">3</span>:
+            </h3>
+            <p class="intructions" id="instruction-step1">
+              Start experiment
+            </p>
+          </div>
+
+
+          <!-- IMAGES  -->
+
+          <img class="exp-image-section" id="png1Step3" src="images/step3Images/png1-step3.png" alt="png1">
+
+
+          <!-- GIFS  -->
+
+          <img class="exp-image-section-gifs" id="gif1Step3" src="images/step3Images/gif1-step3.gif" alt="gif">
+  
+          <img class="exp-image-section-gifs" id="gif2Step3" src="images/step3Images/gif2-step3.gif" alt="gif">
+
+          <img class="exp-image-section-gifs" id="gif3Step3" src="images/step3Images/gif3-step3.gif" alt="gif">
+
+          <img class="exp-image-section-gifs" id="gif4Step3" src="images/step3Images/gif4-step3.gif" alt="gif">
+
+          <img class="exp-image-section-gifs" id="gif5Step3" src="images/step3Images/gif5-step3.gif" alt="gif">
+
+          <img class="exp-image-section-gifs" id="gif6Step3" src="images/step3Images/gif6-step3.gif" alt="gif">
+
+
+           <!-- TRANSBOXES  -->
+
+          <img class="exp-transboxes" id="trans1Step3" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans2Step3" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans3Step3" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans4Step3" src="images/transbox.png" alt="transbox">
+
+          <img class="exp-transboxes" id="trans5Step3" src="images/transbox.png" alt="transbox">
+
+
+
+           <!-- ARROWS -->
+
+          <img class="exp-arrows" id="arr1Step3" src="images/arrow_right.gif" alt="arrow-left">
+
+          <img class="exp-arrows" id="arr2Step3" src="images/arrow_right.gif" alt="arrow-left">
+
+          <img class="exp-arrows" id="arr3Step3" src="images/arrow_right.gif" alt="arrow-left">
+
+          <img class="exp-arrows" id="arr4Step3" src="images/arrow_right.gif" alt="arrow-left">
+
+          <img class="exp-arrows" id="arr5Step3" src="images/arrow_right.gif" alt="arrow-left">
+
+
+
+           <!-- NEXT -->
+
+          <button class="next-exp" id="nextStep4">Next</button>
+
+          <img class="arr-next" src="images/arrow_right.gif" alt="arr-next">
+
+          </div>
 
 
       </div>
