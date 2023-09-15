@@ -91,14 +91,14 @@ main{
 
 /* IMAGES  */
 
-.transbox{
+/* .transbox{
     position: absolute;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     left: 460px;
     top: 215px;
     width: 120px;
     height: 85px;
-}
+} */
 
 .instruments-img{
     position: absolute;
@@ -120,7 +120,7 @@ main{
 .exp-transboxes{
     position: absolute;
     visibility: hidden;
-    /* border: 2px solid green; */
+    border: 2px solid green;
 }
 
 /* ARROWS  */
