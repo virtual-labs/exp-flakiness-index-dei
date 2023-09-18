@@ -293,3 +293,15 @@ nextToStep3.addEventListener("click", (evt) =>{
     arr1Step3.style.visibility = "visible";
     trans1Step3.style.visibility = "visible";
 });
+
+trans1Step3.addEventListener("click", (evt) =>{
+    evt.target.style.visibility = "hidden";
+    arr1Step3.style.visibility = "hidden";
+    png1Step3.style.visibility = "hidden";
+
+    gif1Step3.style.visibility = "visible";
+
+    setTimeout(()=> {
+        // to be completed
+    },5000);
+});
