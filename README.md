@@ -1,10 +1,10 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b> Civil Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Concrete Technology
+<b> Experiment|     <b>10. Flakiness Index Test
 
 ### About the Experiment 
 
@@ -20,6 +20,6 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Prateek Dubey | Student | Electrical Engineering | Dayalbagh Educational institute  | prateek191226@dei.ac.in
-2 | Sarth Gupta |Student | Civil Engineering | Dayalbagh Educational institute  | sarth191161@dei.ac.in
+1 | <b>Varun Pal Singh | Student | Civil Engineering | Dayalbagh Educational institute  | singhvarun928@gmail.com
+2 | <b>Ana Rehman |Student | Civil Engineering | Dayalbagh Educational institute  | anarehmanana@gmail.com
 
