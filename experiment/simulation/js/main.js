@@ -159,16 +159,16 @@ const trans1Step4 = document.querySelector("#trans1Step4");
 const trans2Step4 = document.querySelector("#trans2Step4");
 const trans3Step4 = document.querySelector("#trans3Step4");
 const trans4Step4 = document.querySelector("#trans4Step4");
-const trans5Step4 = document.querySelector("#trans5Step3");
-const trans6Step4 = document.querySelector("#trans6Step3");
-const trans7Step4 = document.querySelector("#trans7Step3");
-const trans8Step4 = document.querySelector("#trans8Step3");
-const trans9Step4 = document.querySelector("#trans9Step3");
-const trans10Step4 = document.querySelector("#trans10Step3");
-const trans11Step4 = document.querySelector("#trans11Step3");
-const trans12Step4 = document.querySelector("#trans12Step3");
-const trans13Step4 = document.querySelector("#trans13Step3");
-const trans14Step4 = document.querySelector("#trans14Step3");
+const trans5Step4 = document.querySelector("#trans5Step4");
+const trans6Step4 = document.querySelector("#trans6Step4");
+const trans7Step4 = document.querySelector("#trans7Step4");
+const trans8Step4 = document.querySelector("#trans8Step4");
+const trans9Step4 = document.querySelector("#trans9Step4");
+const trans10Step4 = document.querySelector("#trans10Step4");
+const trans11Step4 = document.querySelector("#trans11Step4");
+const trans12Step4 = document.querySelector("#trans12Step4");
+const trans13Step4 = document.querySelector("#trans13Step4");
+const trans14Step4 = document.querySelector("#trans14Step4");
 
 
 // next to step4
@@ -178,7 +178,7 @@ const nextToStep5 = document.querySelector("#nextToStep5");
 //#########################################################################
 
 addEventListener("DOMContentLoaded", (evt) => {
-    // startBtn.style.visibility = "visible";
+    startBtn.style.visibility = "visible";
 });
 
 // step1 
@@ -456,4 +456,195 @@ trans1Step4.addEventListener("click", (evt) => {
         trans2Step4.style.visibility = "visible";
         arr2Step4.style.visibility = "visible";
     }, 6000);
-})
+});
+
+trans2Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr2Step4.style.visibility = "hidden";
+    gif1Step4.style.visibility = "hidden";
+
+    gif2Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans3Step4.style.visibility = "visible";
+        arr3Step4.style.visibility = "visible";
+    }, 4000);
+});
+
+trans3Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr3Step4.style.visibility = "hidden";
+    gif2Step4.style.visibility = "hidden";
+
+    gif3Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans4Step4.style.visibility = "visible";
+        arr4Step4.style.visibility = "visible";
+    }, 4000);
+});
+
+trans4Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr4Step4.style.visibility = "hidden";
+    gif3Step4.style.visibility = "hidden";
+
+    gif4Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans5Step4.style.visibility = "visible";
+        arr5Step4.style.visibility = "visible";
+    }, 6000);
+});
+
+trans5Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr5Step4.style.visibility = "hidden";
+    gif4Step4.style.visibility = "hidden";
+
+    gif5Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans6Step4.style.visibility = "visible";
+        arr6Step4.style.visibility = "visible";
+    }, 4000);
+});
+
+trans6Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr6Step4.style.visibility = "hidden";
+    gif5Step4.style.visibility = "hidden";
+
+    gif6Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans7Step4.style.visibility = "visible";
+        arr7Step4.style.visibility = "visible";
+    }, 4000);
+});
+
+trans7Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr7Step4.style.visibility = "hidden";
+    gif6Step4.style.visibility = "hidden";
+
+    gif7Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans8Step4.style.visibility = "visible";
+        arr8Step4.style.visibility = "visible";
+    }, 6000);
+});
+
+trans8Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr8Step4.style.visibility = "hidden";
+    gif7Step4.style.visibility = "hidden";
+
+    gif8Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans9Step4.style.visibility = "visible";
+        arr9Step4.style.visibility = "visible";
+    }, 6000);
+});
+
+trans9Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr9Step4.style.visibility = "hidden";
+    gif8Step4.style.visibility = "hidden";
+
+    gif9Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans10Step4.style.visibility = "visible";
+        arr10Step4.style.visibility = "visible";
+    }, 4000);
+});
+
+trans10Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr10Step4.style.visibility = "hidden";
+    gif9Step4.style.visibility = "hidden";
+
+    gif10Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans11Step4.style.visibility = "visible";
+        arr11Step4.style.visibility = "visible";
+    }, 6000);
+});
+
+trans11Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr11Step4.style.visibility = "hidden";
+    gif10Step4.style.visibility = "hidden";
+
+    gif11Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        trans12Step4.style.visibility = "visible";
+        arr12Step4.style.visibility = "visible";
+    }, 6000);
+});
+
+trans12Step4.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arr12Step4.style.visibility = "hidden";
+    gif11Step4.style.visibility = "hidden";
+
+    gif12Step4.style.visibility = "visible";
+
+    setTimeout(() => {
+        gif12Step4.style.visibility = "hidden";
+
+        gif13Step4.style.visibility = "visible";
+    }, 4000);
+
+    setTimeout(()=>{
+        gif13Step4.style.visibility = "hidden";
+        
+        png2Step4.style.visibility = "visible";
+        trans13Step4.style.visibility = "visible";
+        arr13Step4.style.visibility = "visible";
+    }, 10000);
+});
+
+trans13Step4.addEventListener("click", (evt)=>{
+    evt.target.style.visibility = "hidden";
+    arr13Step4.style.visibility = "hidden";
+    png2Step4.style.visibility = "hidden";
+
+    gif14Step4.style.visibility = "visible";
+
+    setTimeout(()=>{
+        nextToStep5.style.visibility = "visible";
+        arrNext.style.visibility = "visible";
+    }, 3000);
+});
+
+// Step 5
+
+nextToStep5.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    arrNext.style.visibility = "hidden";
+    step4.style.visibility = "hidden";
+
+    step5.style.visibility = "visible";
+    png1Step5.style.visibility = "visible";
+    trans1Step5.style.visibility = "visible";
+    arr1Step5.style.visibility = "visible";
+});
+
+trans1Step5.addEventListener("click", (evt) => {
+    evt.target.visibility = "hidden";
+    arr1Step5.style.visibility = "hidden";
+    png1Step5.style.visibility = "hidden";
+
+    gif1Step5.style.visibility = "visible";
+
+    setTimeout(()=>{
+        trans2Step5.style.visibility = "visible";
+        arr2Step5.style.visibility = "visible";
+    }, 3000);
+});

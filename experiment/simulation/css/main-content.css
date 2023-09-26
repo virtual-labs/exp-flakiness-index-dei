@@ -111,7 +111,7 @@ main{
 .exp-transboxes{
     visibility: hidden;
     position: absolute;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* ARROWS  */

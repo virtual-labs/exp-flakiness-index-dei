@@ -1,11 +1,4 @@
 /* Step 4  */
-/* #arr1Step4,
-#trans1Step4, 
-#png1Step4 */
-#nextToStep4
-{
-    visibility: visible;
-}
 
 /* Transboxes  */
 
@@ -81,17 +74,13 @@
     left: 155px;
 }
 
-/* #trans13Step4{
-    width: 40px;
-    top: 155px;
-    left: 95px;
+#trans13Step4{
+    top: 160px;
+    left: 485px;
+    width: 250px;
+    height: 70px;
 }
 
-#trans14Step4{
-    width: 40px;
-    top: 155px;
-    left: 155px;
-} */
 
 /* Arrows  */
 
@@ -155,12 +144,8 @@
     left: 120px;
 }
 
-/* #arr13Step4{
-    top: 160px;
-    left: 50px;
+#arr13Step4{
+    top: 175px;
+    left: 730px;
 }
 
-#arr14Step4{
-    top: 160px;
-    left: 50px;
-} */
