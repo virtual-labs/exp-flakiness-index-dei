@@ -1,13 +1,5 @@
 /* Step3  */
 
-/* #png1Step3,  */
-/* #gif1Step3, */
-/* #arr4Step3, #trans4Step3 ,*/
- #nextToStep3
-{
-    visibility: visible;
-}
-
 /* TRANSBOXES  */
 
 #trans1Step3{
@@ -38,6 +30,13 @@
     height: 45px;
 }
 
+#trans5Step3{
+    top: 155px;
+    left: 485px;
+    width: 250px;
+    height: 70px;
+}
+
 /* ARROWS  */
 
 #arr1Step3{
@@ -58,4 +57,9 @@
 #arr4Step3{
     top: 300px;
     left: 135px;
+}
+
+#arr5Step3{
+    top: 170px;
+    left: 720px;
 }

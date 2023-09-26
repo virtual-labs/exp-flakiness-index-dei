@@ -8,7 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    /* height: 78px; */
+    /* padding: 5px; */
 }
 
 .header img{
@@ -19,7 +20,8 @@
 /* style the navigation menu  */
 
 nav{
-    background-color: lightgray;
+    background-color: #ff6600;
+    height: 8px;
     /* padding: 7px; */
 }
 nav ul{
