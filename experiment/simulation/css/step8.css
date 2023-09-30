@@ -1,0 +1,23 @@
+/* Step 8 */
+
+#png1Step8, 
+#trans1Step8, #arr1Step8
+/* #nextToStep8 */
+{
+    /* visibility: visible; */
+}
+
+/* Transboxes  */
+
+#trans1Step8{
+    width: 40px;
+    top: 230px;
+    left: 115px;
+}
+
+/* Arrows  */
+
+#arr1Step8{
+    top: 240px;
+    left: 80px;
+}

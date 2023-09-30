@@ -152,8 +152,6 @@ const arr12Step4 = document.querySelector("#arr12Step4");
 const arr13Step4 = document.querySelector("#arr13Step4");
 const arr14Step4 = document.querySelector("#arr14Step4");
 
-
-
 // transboxes of step4
 const trans1Step4 = document.querySelector("#trans1Step4");
 const trans2Step4 = document.querySelector("#trans2Step4");
@@ -175,10 +173,136 @@ const trans14Step4 = document.querySelector("#trans14Step4");
 const nextToStep5 = document.querySelector("#nextToStep5");
 
 
+// STEP 5
+
+const step5 = document.querySelector("#step5");
+
+// images of step5
+const png1Step5 = document.querySelector("#png1Step5");
+const png2Step5 = document.querySelector("#png2Step5");
+
+// gifs of step5
+const gif1Step5 = document.querySelector("#gif1Step5");
+const gif2Step5 = document.querySelector("#gif2Step5");
+const gif3Step5 = document.querySelector("#gif3Step5");
+const gif4Step5 = document.querySelector("#gif4Step5");
+const gif5Step5 = document.querySelector("#gif5Step5");
+const gif6Step5 = document.querySelector("#gif6Step5");
+const gif7Step5 = document.querySelector("#gif7Step5");
+const gif8Step5 = document.querySelector("#gif8Step5");
+
+// arrows of step5
+const arr1Step5 = document.querySelector("#arr1Step5");
+const arr2Step5 = document.querySelector("#arr2Step5");
+const arr3Step5 = document.querySelector("#arr3Step5");
+const arr4Step5 = document.querySelector("#arr4Step5");
+const arr5Step5 = document.querySelector("#arr5Step5");
+const arr6Step5 = document.querySelector("#arr6Step5");
+const arr7Step5 = document.querySelector("#arr7Step5");
+
+// transboxes of step5
+const trans1Step5 = document.querySelector("#trans1Step5");
+const trans2Step5 = document.querySelector("#trans2Step5");
+const trans3Step5 = document.querySelector("#trans3Step5");
+const trans4Step5 = document.querySelector("#trans4Step5");
+const trans5Step5 = document.querySelector("#trans5Step5");
+const trans6Step5 = document.querySelector("#trans6Step5");
+const trans7Step5 = document.querySelector("#trans7Step5");
+
+// next to step5
+const nextToStep6 = document.querySelector("#nextToStep6");
+
+// STEP 6
+
+const step6 = document.querySelector("#step6");
+
+// images of step6
+const png1Step6 = document.querySelector("#png1Step6");
+const png2Step6 = document.querySelector("#png2Step6");
+
+// gifs of step6
+const gif1Step6 = document.querySelector("#gif1Step6");
+const gif2Step6 = document.querySelector("#gif2Step6");
+const gif3Step6 = document.querySelector("#gif3Step6");
+const gif4Step6 = document.querySelector("#gif4Step6");
+const gif5Step6 = document.querySelector("#gif5Step6");
+const gif6Step6 = document.querySelector("#gif6Step6");
+const gif7Step6 = document.querySelector("#gif7Step6");
+const gif8Step6 = document.querySelector("#gif8Step6");
+const gif9Step6 = document.querySelector("#gif9Step6");
+const gif10Step6 = document.querySelector("#gif10Step6");
+
+
+// arrows of step6
+const arr1Step6 = document.querySelector("#arr1Step6");
+const arr2Step6 = document.querySelector("#arr2Step6");
+const arr3Step6 = document.querySelector("#arr3Step6");
+const arr4Step6 = document.querySelector("#arr4Step6");
+const arr5Step6 = document.querySelector("#arr5Step6");
+const arr6Step6 = document.querySelector("#arr6Step6");
+const arr7Step6 = document.querySelector("#arr7Step6");
+const arr8Step6 = document.querySelector("#arr8Step6");
+const arr9Step6 = document.querySelector("#arr9Step6");
+
+// transboxes of step6
+const trans1Step6 = document.querySelector("#trans1Step6");
+const trans2Step6 = document.querySelector("#trans2Step6");
+const trans3Step6 = document.querySelector("#trans3Step6");
+const trans4Step6 = document.querySelector("#trans4Step6");
+const trans5Step6 = document.querySelector("#trans5Step6");
+const trans6Step6 = document.querySelector("#trans6Step6");
+const trans7Step6 = document.querySelector("#trans7Step6");
+const trans8Step6 = document.querySelector("#trans8Step6");
+const trans9Step6 = document.querySelector("#trans9Step6");
+
+
+// next to step6
+const nextToStep7 = document.querySelector("#nextToStep7");
+
+// STEP 7
+
+const step7 = document.querySelector("#step7");
+
+// images of step7
+const png1Step7 = document.querySelector("#png1Step7");
+const png2Step7 = document.querySelector("#png2Step7");
+
+// gifs of step7
+const gif1Step7 = document.querySelector("#gif1Step7");
+const gif2Step7 = document.querySelector("#gif2Step7");
+const gif3Step7 = document.querySelector("#gif3Step7");
+const gif4Step7 = document.querySelector("#gif4Step7");
+const gif5Step7 = document.querySelector("#gif5Step7");
+const gif6Step7 = document.querySelector("#gif6Step7");
+const gif7Step7 = document.querySelector("#gif7Step7");
+const gif8Step7 = document.querySelector("#gif8Step7");
+
+// arrows of step7
+const arr1Step7 = document.querySelector("#arr1Step7");
+const arr2Step7 = document.querySelector("#arr2Step7");
+const arr3Step7 = document.querySelector("#arr3Step7");
+const arr4Step7 = document.querySelector("#arr4Step7");
+const arr5Step7 = document.querySelector("#arr5Step7");
+const arr6Step7 = document.querySelector("#arr6Step7");
+const arr7Step7 = document.querySelector("#arr7Step7");
+
+// transboxes of step7
+const trans1Step7 = document.querySelector("#trans1Step7");
+const trans2Step7 = document.querySelector("#trans2Step7");
+const trans3Step7 = document.querySelector("#trans3Step7");
+const trans4Step7 = document.querySelector("#trans4Step7");
+const trans5Step7 = document.querySelector("#trans5Step7");
+const trans6Step7 = document.querySelector("#trans6Step7");
+const trans7Step7 = document.querySelector("#trans7Step7");
+
+// next to step7
+const nextToStep8 = document.querySelector("#nextToStep8");
+
+
 //#########################################################################
 
 addEventListener("DOMContentLoaded", (evt) => {
-    startBtn.style.visibility = "visible";
+    // startBtn.style.visibility = "visible";
 });
 
 // step1 
