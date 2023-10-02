@@ -22,8 +22,56 @@
         "d": "16.2 mm"
       },
      
-      "correctAnswer": "b  ",
+      "correctAnswer": "b ",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The average least dimension of flaky aggregate is less than ____?",
+      "answers": {
+        "a": "3/5 of its mean dimensions",
+        "b": "4/5 of its mean dimensions",
+        "c": "2/3 of its mean dimensions",
+        "d": "5/6 of its mean dimensions"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which apparatus is used to determine the flakiness index?",
+      "answers": {
+        "a": "Length gauge",
+        "b": "90 micron IS sieve",
+        "c": "Thickness gauge",
+        "d": "Pycnometer"
+      },
+     
+      "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What is the effect of an excess of flaky particles on the workability of concrete?",
+      "answers": {
+        "a": "Workability decreases",
+        "b": "Workability increases",
+        "c": "Both",
+        "d": "No effect"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": " Which of the following statement is correct?",
+      "answers": {
+        "a": "Flaky aggregates are very thick and require less cement paste.",
+        "b": "Flaky aggregates have less thickness and require more cement paste.",
+        "c": "Flaky aggregates have a smooth surface and decrease the water/cement ratio.",
+        "d": "Flaky aggregates are smooth and have elongated sides."
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
