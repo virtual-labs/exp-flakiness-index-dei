@@ -1,5 +1,83 @@
 /* Step 5 */
 
-#nextToStep5{
-    /* visibility: visible; */
+/* Transboxes  */
+
+#trans1Step5{
+    width: 40px;
+    top: 230px;
+    left: 95px;
+}
+
+#trans2Step5{
+    width: 40px;
+    top: 230px;
+    left: 160px;
+}
+
+#trans3Step5{
+    width: 40px;
+    top: 285px;
+    left: 95px;
+}
+
+#trans4Step5{
+    width: 40px;
+    top: 285px;
+    left: 160px;
+}
+
+#trans5Step5{
+    width: 40px;
+    top: 335px;
+    left: 95px;
+}
+
+#trans6Step5{
+    width: 40px;
+    top: 335px;
+    left: 160px;
+}
+
+#trans7Step5{
+    top: 160px;
+    left: 485px;
+    width: 250px;
+    height: 70px;
+}
+
+/* Arrows  */
+
+#arr1Step5{
+    top: 240px;
+    left: 50px;
+}
+
+#arr2Step5{
+    top: 240px;
+    left: 120px;
+}
+
+#arr3Step5{
+    top: 290px;
+    left: 50px;
+}
+
+#arr4Step5{
+    top: 290px;
+    left: 120px;
+}
+
+#arr5Step5{
+    top: 345px;
+    left: 50px;
+}
+
+#arr6Step5{
+    top: 345px;
+    left: 120px;
+}
+
+#arr7Step5{
+    top: 175px;
+    left: 730px;
 }
