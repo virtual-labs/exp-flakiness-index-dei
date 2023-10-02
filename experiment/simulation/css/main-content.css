@@ -61,11 +61,11 @@ main{
     top: 30px;
 }
 
-.instructions{
+/* .instructions{
     position: absolute;
     display: inline-block;
     top: 30px;
-}
+} */
 
 /* TEXT  */
 
@@ -80,7 +80,7 @@ main{
     border-radius: 5px;
 }
 
-.intructions{
+.instructions{
     position: absolute;
     display: inline;
     left: 90px;
