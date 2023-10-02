@@ -2,37 +2,45 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following aggregate is suitable and provides maximum strength?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Cubical aggregate",
+        "b": "Rounded aggregate",
+        "c": "Flaky aggregate",
+        "d": "Elongated aggregate"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "According to IRC, the flakiness index value for bituminous surface dressing should not exceed ____.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "15%",
+        "b": "35%",
+        "c": "25%",
+        "d": "20%"
       },
       "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is an example of a flaky aggregate?",
+      "answers": {
+        "a": "Laminated rock",
+        "b": "Crushed rock",
+        "c": "Desert and Wind blown flints",
+        "d": "Pit sand"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The flakiness index of the aggregates should not be more than 15%.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
