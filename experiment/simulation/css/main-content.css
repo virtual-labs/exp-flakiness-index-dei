@@ -51,17 +51,11 @@ main{
     text-align: justify;
     top: 100px;
     left: 165px;
-    width: 690px;
+    width: 610px;
     font-size: 20px;
 }
 
 .instruction-main{
-    position: absolute;
-    display: inline-block;
-    top: 30px;
-}
-
-.instructions{
     position: absolute;
     display: inline-block;
     top: 30px;
@@ -80,7 +74,7 @@ main{
     border-radius: 5px;
 }
 
-.intructions{
+.instructions{
     position: absolute;
     display: inline;
     left: 90px;
