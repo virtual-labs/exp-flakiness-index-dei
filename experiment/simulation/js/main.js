@@ -5,7 +5,7 @@ const mainStep = document.querySelector("#mainStep");
 // STEP 1 
 
 const step1 = document.querySelector("#step1");
-const instructions = document.querySelector("#instructions");
+const instructionsStep1 = document.querySelector("#instructionsStep1");
 
 // images of step1
 const png1Step1 = document.querySelector("#png1Step1");
@@ -40,6 +40,7 @@ const arrNext = document.querySelector(".arr-next");
 
 
 const step2 = document.querySelector("#step2");
+const instructionsStep2 = document.querySelector("#instructionsStep2");
 
 // images of step2
 const png1Step2 = document.querySelector("#png1Step2");
@@ -80,6 +81,7 @@ const nextToStep3 = document.querySelector("#nextToStep3");
 // STEP 3
 
 const step3 = document.querySelector("#step3");
+const instructionsStep3 = document.querySelector("#instructionsStep3");
 
 // images of step3
 const png1Step3 = document.querySelector("#png1Step3");
@@ -114,6 +116,7 @@ const nextToStep4 = document.querySelector("#nextToStep4");
 // STEP 4
 
 const step4 = document.querySelector("#step4");
+const instructionsStep4 = document.querySelector("#instructionsStep4");
 
 // images of step4
 const png1Step4 = document.querySelector("#png1Step4");
@@ -176,6 +179,7 @@ const nextToStep5 = document.querySelector("#nextToStep5");
 // STEP 5
 
 const step5 = document.querySelector("#step5");
+const instructionsStep5 = document.querySelector("#instructionsStep5");
 
 // images of step5
 const png1Step5 = document.querySelector("#png1Step5");
@@ -215,6 +219,7 @@ const nextToStep6 = document.querySelector("#nextToStep6");
 // STEP 6
 
 const step6 = document.querySelector("#step6");
+const instructionsStep6 = document.querySelector("#instructionsStep6");
 
 // images of step6
 const png1Step6 = document.querySelector("#png1Step6");
@@ -262,6 +267,7 @@ const nextToStep7 = document.querySelector("#nextToStep7");
 // STEP 7
 
 const step7 = document.querySelector("#step7");
+const instructionsStep7 = document.querySelector("#instructionsStep7");
 
 // images of step7
 const png1Step7 = document.querySelector("#png1Step7");
@@ -301,6 +307,7 @@ const nextToStep8 = document.querySelector("#nextToStep8");
 // Step 8
 
 const step8 = document.querySelector("#step8");
+const instructionsStep8 = document.querySelector("#instructionsStep8");
 
 // images of Step8
 const png1Step8 = document.querySelector("#png1Step8");
@@ -343,6 +350,8 @@ const nextToStep9 = document.querySelector("#nextToStep9");
 // Step 9
 
 const step9 = document.querySelector("#step9");
+const instructionsStep9 = document.querySelector("#instructionsStep9");
+
 
 //#########################################################################
 
@@ -360,6 +369,7 @@ startBtn.addEventListener("click", (evt) => {
     png1Step1.style.visibility = "visible";
     arr1Step1.style.visibility = "visible";
     trans1Step1.style.visibility = "visible";
+    instructionsStep1.innerText = "Place the tray on the weighing balance. Press the TARE button and then measure the weight of the coarse aggregate sample.";
 });
 
 trans1Step1.addEventListener("click", (evt) => {
@@ -404,7 +414,6 @@ trans3Step1.addEventListener("click", (evt) => {
     }, 2000);
 });
 
-
 // step2
 
 nextToStep2.addEventListener("click", (evt) => {
@@ -414,6 +423,7 @@ nextToStep2.addEventListener("click", (evt) => {
     step1.style.visibility = "hidden";
 
     step2.style.visibility = "visible";
+    instructionsStep2.textContent = "Assemble the sieves in descending order with the largest aperture size sieve at the top and the smallest at the bottom. Place a pan below the bottom most sieve.";
     png1Step2.style.visibility = "visible";
     assemBtnStep2.style.visibility = "visible";
     arr1Step2.style.visibility = "visible";
@@ -427,6 +437,7 @@ assemBtnStep2.addEventListener("click", (evt) => {
     gif1Step2.style.visibility = "visible";
 
     setTimeout(() => {
+        instructionsStep2.textContent = "Pour the aggregates into the sieve stack."
         gif1Step2.style.visibility = "hidden";
         png2Step2.style.visibility = "visible";
         arr2Step2.style.visibility = "visible";
@@ -520,9 +531,11 @@ trans6Step2.addEventListener("click", (evt) => {
 nextToStep3.addEventListener("click", (evt) =>{
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
+    png4Step2.style.visibility = "hidden";
     step2.style.visibility = "hidden";
 
     step3.style.visibility = "visible";
+    instructionsStep3.textContent = "Pass the aggregates retained on 25mm through the 40-25mm slot in the flakiness gauge. Separate the aggregate pieces which have passed the flakiness gauge from the ones that have not passed.";
     png1Step3.style.visibility = "visible";
     arr1Step3.style.visibility = "visible";
     trans1Step3.style.visibility = "visible";
@@ -582,6 +595,7 @@ trans4Step3.addEventListener("click", (evt) => {
     setTimeout(() => {
         gif5Step3.style.visibility = "hidden";
         
+        instructionsStep3.textContent = "Now, weigh the aggregates that have passed through the 40-25mm slot of flakiness gauge.";
         png2Step3.style.visibility = "visible";
         trans5Step3.style.visibility = "visible";
         arr5Step3.style.visibility = "visible";
@@ -606,9 +620,11 @@ trans5Step3.addEventListener("click", (evt) => {
 nextToStep4.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
+    gif6Step3.style.visibility = "hidden";
     step3.style.visibility = "hidden";
 
     step4.style.visibility = "visible";
+    instructionsStep4.textContent = "Pass the aggregates that have retained on 20mm sieve one by one through the 25-20mm slot in flakiness gauge. Separate the  aggregates that have passed from the ones that have not passed the flakiness gauge."
     png1Step4.style.visibility = "visible";
     arr1Step4.style.visibility = "visible";
     trans1Step4.style.visibility = "visible";
@@ -773,10 +789,11 @@ trans12Step4.addEventListener("click", (evt) => {
     setTimeout(()=>{
         gif13Step4.style.visibility = "hidden";
         
+        instructionsStep4.textContent = "Weigh the aggregates that have passed through the 25-20mm slot on flakiness gauge."
         png2Step4.style.visibility = "visible";
         trans13Step4.style.visibility = "visible";
         arr13Step4.style.visibility = "visible";
-    }, 10000);
+    }, 8000);
 });
 
 trans13Step4.addEventListener("click", (evt)=>{
@@ -797,9 +814,11 @@ trans13Step4.addEventListener("click", (evt)=>{
 nextToStep5.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
+    gif14Step4.style.visibility = "hidden";
     step4.style.visibility = "hidden";
 
     step5.style.visibility = "visible";
+    instructionsStep5.textContent = "Try passing the aggregates through the 20-16mm slot in the flakiness gauge. Separate the passing aggregates form the ones that have not passed."
     png1Step5.style.visibility = "visible";
     trans1Step5.style.visibility = "visible";
     arr1Step5.style.visibility = "visible";
@@ -884,10 +903,12 @@ trans6Step5.addEventListener("click", (evt) => {
  
      setTimeout(() => {
          gif7Step5.style.visibility = "hidden";
+
+         instructionsStep5.visibility = "Weigh the aggregates that have passed through the 20-16mm slot in flakiness gauge."
          png2Step5.style.visibility = "visible";
          trans7Step5.style.visibility = "visible";
          arr7Step5.style.visibility = "visible";
-     }, 10000);
+     }, 8500);
 });
 
 trans7Step5.addEventListener("click", (evt) =>{
@@ -907,10 +928,12 @@ trans7Step5.addEventListener("click", (evt) =>{
 
 nextToStep6.addEventListener("click", (evt) =>{
     evt.target.style.visibility = "hidden";
-    arrNext.visibility = "hidden";
+    arrNext.style.visibility = "hidden";
+    gif8Step5.style.visibility = "hidden";
     step5.style.visibility = "hidden";
 
     step6.style.visibility = "visible";
+    instructionsStep6.textContent = "Pass the aggregates through the 16-12.5mm slot in the flakiness gauge."
     png1Step6.style.visibility = "visible";
     arr1Step6.style.visibility = "visible";
     trans1Step6.style.visibility = "visible";
@@ -1022,6 +1045,7 @@ trans8Step6.addEventListener("click", (evt) =>{
     setTimeout(()=>{
         gif9Step6.style.visibility = "hidden";
 
+        instructionsStep6.textContent = "Weigh the aggregates that have passed through the 16-12.5mm slot."
         png2Step6.style.visibility = "visible";
         trans9Step6.style.visibility= "visible";
         arr9Step6.style.visibility = "visible";
@@ -1046,9 +1070,11 @@ trans9Step6.addEventListener("click", (evt)=>{
 nextToStep7.addEventListener("click", (evt)=>{
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
+    gif10Step6.style.visibility = "hidden";
     step6.style.visibility = "hidden";
 
     step7.style.visibility = "visible";
+    instructionsStep7.textContent = "Now, Pass the aggregates through the 12.5-10mm slot in the flakiness gauge."
     png1Step7.style.visibility = "visible";
     arr1Step7.style.visibility = "visible";
     trans1Step7.style.visibility = "visible";
@@ -1134,10 +1160,11 @@ trans6Step7.addEventListener("click", (evt) =>{
     setTimeout(() => {
         gif7Step7.style.visibility = "hidden";
 
+        instructionsStep7.textContent = "Weigh the aggregates that have passed through the 12.5-10mm slot."
         png2Step7.style.visibility = "visible";
         trans7Step7.style.visibility = "visible";
         arr7Step7.style.visibility = "visible";
-    }, 10000);
+    }, 8000);
 });
 
 trans7Step7.addEventListener("click", (evt) =>{
@@ -1158,9 +1185,11 @@ trans7Step7.addEventListener("click", (evt) =>{
 nextToStep8.addEventListener("click", (evt) =>{
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
+    gif8Step7.style.visibility = "hidden";
     step7.style.visibility = "hidden";
 
     step8.style.visibility = "visible";
+    instructionsStep8.textContent = "Pass the aggregates through the 10-6.3mm slot in flakiness gauge."
     png1Step8.style.visibility = "visible";
     arr1Step8.style.visibility = "visible";
     trans1Step8.style.visibility = "visible";
@@ -1175,7 +1204,7 @@ trans1Step8.addEventListener("click", (evt)=>{
     setTimeout(() => {
         trans2Step8.style.visibility = "visible";
         arr2Step8.style.visibility = "visible";
-    }, 4000);
+    }, 3000);
 });
 
 trans2Step8.addEventListener("click", (evt)=>{
@@ -1259,10 +1288,11 @@ trans7Step8.addEventListener("click", (evt)=>{
     setTimeout(() => {
         gif8Step8.style.visibility = "hidden";
 
+        instructionsStep8.textContent = "Weigh the aggregates passing through the 10-6.3mm slot."
         png2Step8.style.visibility = "visible";
         trans8Step8.style.visibility = "visible";
         arr8Step8.style.visibility = "visible"
-    }, 9000);
+    }, 8000);
 });
 
 trans8Step8.addEventListener("click", (evt) =>{
@@ -1287,4 +1317,5 @@ nextToStep9.addEventListener("click", (evt) =>{
     step8.style.visibility = "hidden";
 
     step9.style.visibility = "visible";
-})
+    instructionsStep9.textContent = "Result..."
+});
