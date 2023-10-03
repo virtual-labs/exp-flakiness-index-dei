@@ -51,7 +51,7 @@ main{
     text-align: justify;
     top: 100px;
     left: 165px;
-    width: 690px;
+    width: 610px;
     font-size: 20px;
 }
 
@@ -60,12 +60,6 @@ main{
     display: inline-block;
     top: 30px;
 }
-
-/* .instructions{
-    position: absolute;
-    display: inline-block;
-    top: 30px;
-} */
 
 /* TEXT  */
 
