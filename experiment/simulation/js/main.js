@@ -356,7 +356,7 @@ const instructionsStep9 = document.querySelector("#instructionsStep9");
 //#########################################################################
 
 addEventListener("DOMContentLoaded", (evt) => {
-    startBtn.style.visibility = "visible";
+    // startBtn.style.visibility = "visible";
 });
 
 // step1 
@@ -411,7 +411,7 @@ trans3Step1.addEventListener("click", (evt) => {
     setTimeout(()=>{
         nextToStep2.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-    }, 2000);
+    }, 5500);
 });
 
 // step2
@@ -520,7 +520,7 @@ trans6Step2.addEventListener("click", (evt) => {
     png4Step2.style.visibility = "visible";
 
     setTimeout(() => {
-        nextToStep3.style.visibility = "visible";
+        nextToStep4.style.visibility = "visible";   // bcoz step 3 has been removed completely
         arrNext.style.visibility = "visible";
     }, 2000);
 });
@@ -528,100 +528,100 @@ trans6Step2.addEventListener("click", (evt) => {
 
 // step 3
 
-nextToStep3.addEventListener("click", (evt) =>{
-    evt.target.style.visibility = "hidden";
-    arrNext.style.visibility = "hidden";
-    png4Step2.style.visibility = "hidden";
-    step2.style.visibility = "hidden";
+// nextToStep3.addEventListener("click", (evt) =>{
+//     evt.target.style.visibility = "hidden";
+//     arrNext.style.visibility = "hidden";
+//     png4Step2.style.visibility = "hidden";
+//     step2.style.visibility = "hidden";
 
-    step3.style.visibility = "visible";
-    instructionsStep3.textContent = "Pass the aggregates retained on 25mm through the 40-25mm slot in the flakiness gauge. Separate the aggregate pieces which have passed the flakiness gauge from the ones that have not passed.";
-    png1Step3.style.visibility = "visible";
-    arr1Step3.style.visibility = "visible";
-    trans1Step3.style.visibility = "visible";
-});
+//     step3.style.visibility = "visible";
+//     instructionsStep3.textContent = "Pass the aggregates retained on 25mm through the 40-25mm slot in the flakiness gauge. Separate the aggregate pieces which have passed the flakiness gauge from the ones that have not passed.";
+//     png1Step3.style.visibility = "visible";
+//     arr1Step3.style.visibility = "visible";
+//     trans1Step3.style.visibility = "visible";
+// });
 
-trans1Step3.addEventListener("click", (evt) => {
-    evt.target.style.visibility = "hidden";
-    arr1Step3.style.visibility = "hidden";
-    png1Step3.style.visibility = "hidden";
+// trans1Step3.addEventListener("click", (evt) => {
+//     evt.target.style.visibility = "hidden";
+//     arr1Step3.style.visibility = "hidden";
+//     png1Step3.style.visibility = "hidden";
 
-    gif1Step3.style.visibility = "visible";
+//     gif1Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
-        trans2Step3.style.visibility = "visible";
-        arr2Step3.style.visibility = "visible";
-    }, 6000);
-});
+//     setTimeout(()=>{
+//         trans2Step3.style.visibility = "visible";
+//         arr2Step3.style.visibility = "visible";
+//     }, 6000);
+// });
 
-trans2Step3.addEventListener("click", (evt) => {
-    evt.target.style.visibility = "hidden";
-    arr2Step3.style.visibility = "hidden";
-    gif1Step3.style.visibility = "hidden";
+// trans2Step3.addEventListener("click", (evt) => {
+//     evt.target.style.visibility = "hidden";
+//     arr2Step3.style.visibility = "hidden";
+//     gif1Step3.style.visibility = "hidden";
 
-    gif2Step3.style.visibility = "visible";
+//     gif2Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
-        trans3Step3.style.visibility = "visible";
-        arr3Step3.style.visibility = "visible";
-    }, 6000);
-});
+//     setTimeout(()=>{
+//         trans3Step3.style.visibility = "visible";
+//         arr3Step3.style.visibility = "visible";
+//     }, 6000);
+// });
 
-trans3Step3.addEventListener("click", (evt) => {
-    evt.target.style.visibility = "hidden";
-    arr3Step3.style.visibility = "hidden";
-    gif2Step3.style.visibility = "hidden";
+// trans3Step3.addEventListener("click", (evt) => {
+//     evt.target.style.visibility = "hidden";
+//     arr3Step3.style.visibility = "hidden";
+//     gif2Step3.style.visibility = "hidden";
 
-    gif3Step3.style.visibility = "visible";
+//     gif3Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
-        trans4Step3.style.visibility = "visible";
-        arr4Step3.style.visibility = "visible";
-    }, 6000);
-});
+//     setTimeout(()=>{
+//         trans4Step3.style.visibility = "visible";
+//         arr4Step3.style.visibility = "visible";
+//     }, 6000);
+// });
 
-trans4Step3.addEventListener("click", (evt) => {
-    evt.target.style.visibility = "hidden";
-    arr4Step3.style.visibility = "hidden";
-    gif3Step3.style.visibility = "hidden";
+// trans4Step3.addEventListener("click", (evt) => {
+//     evt.target.style.visibility = "hidden";
+//     arr4Step3.style.visibility = "hidden";
+//     gif3Step3.style.visibility = "hidden";
 
-    gif4Step3.style.visibility = "visible";
+//     gif4Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
-        gif4Step3.style.visibility = "hidden";
-        gif5Step3.style.visibility = "visible";
-    }, 6000);
+//     setTimeout(()=>{
+//         gif4Step3.style.visibility = "hidden";
+//         gif5Step3.style.visibility = "visible";
+//     }, 6000);
 
-    setTimeout(() => {
-        gif5Step3.style.visibility = "hidden";
+//     setTimeout(() => {
+//         gif5Step3.style.visibility = "hidden";
         
-        instructionsStep3.textContent = "Now, weigh the aggregates that have passed through the 40-25mm slot of flakiness gauge.";
-        png2Step3.style.visibility = "visible";
-        trans5Step3.style.visibility = "visible";
-        arr5Step3.style.visibility = "visible";
-    }, 10000);
-});
+//         instructionsStep3.textContent = "Now, weigh the aggregates that have passed through the 40-25mm slot of flakiness gauge.";
+//         png2Step3.style.visibility = "visible";
+//         trans5Step3.style.visibility = "visible";
+//         arr5Step3.style.visibility = "visible";
+//     }, 10000);
+// });
 
-trans5Step3.addEventListener("click", (evt) => {
-    evt.target.style.visibility = "hidden";
-    arr5Step3.style.visibility = "hidden";
-    png2Step3.style.visibility = "hidden";
+// trans5Step3.addEventListener("click", (evt) => {
+//     evt.target.style.visibility = "hidden";
+//     arr5Step3.style.visibility = "hidden";
+//     png2Step3.style.visibility = "hidden";
 
-    gif6Step3.style.visibility = "visible";
+//     gif6Step3.style.visibility = "visible";
 
-    setTimeout(()=>{
-        nextToStep4.style.visibility = "visible";
-        arrNext.style.visibility = "visible";
-    }, 3000);
-});
+//     setTimeout(()=>{
+//         nextToStep4.style.visibility = "visible";
+//         arrNext.style.visibility = "visible";
+//     }, 3000);
+// });
 
 // Step 4
 
 nextToStep4.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
-    gif6Step3.style.visibility = "hidden";
-    step3.style.visibility = "hidden";
+    // gif6Step3.style.visibility = "hidden";
+    // step3.style.visibility = "hidden";
 
     step4.style.visibility = "visible";
     instructionsStep4.textContent = "Pass the aggregates that have retained on 20mm sieve one by one through the 25-20mm slot in flakiness gauge. Separate the  aggregates that have passed from the ones that have not passed the flakiness gauge."
@@ -910,7 +910,7 @@ trans6Step5.addEventListener("click", (evt) => {
          arr7Step5.style.visibility = "visible";
      }, 8500);
 });
-
+trans7Step5.style.visibility = "visible"
 trans7Step5.addEventListener("click", (evt) =>{
     evt.target.style.visibility = "hidden";
     arr7Step5.style.visibility = "hidden";
@@ -921,7 +921,7 @@ trans7Step5.addEventListener("click", (evt) =>{
     setTimeout(() => {
         nextToStep6.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-    }, 3000);
+    }, 6000);
 });
 
 // Step 6 
