@@ -356,7 +356,7 @@ const instructionsStep9 = document.querySelector("#instructionsStep9");
 //#########################################################################
 
 addEventListener("DOMContentLoaded", (evt) => {
-    // startBtn.style.visibility = "visible";
+    startBtn.style.visibility = "visible";
 });
 
 // step1 
@@ -411,7 +411,7 @@ trans3Step1.addEventListener("click", (evt) => {
     setTimeout(()=>{
         nextToStep2.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-    }, 5500);
+    }, 3000);
 });
 
 // step2
@@ -910,7 +910,7 @@ trans6Step5.addEventListener("click", (evt) => {
          arr7Step5.style.visibility = "visible";
      }, 8500);
 });
-trans7Step5.style.visibility = "visible"
+
 trans7Step5.addEventListener("click", (evt) =>{
     evt.target.style.visibility = "hidden";
     arr7Step5.style.visibility = "hidden";
@@ -921,7 +921,7 @@ trans7Step5.addEventListener("click", (evt) =>{
     setTimeout(() => {
         nextToStep6.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-    }, 6000);
+    }, 3000);
 });
 
 // Step 6 
@@ -988,7 +988,7 @@ trans4Step6.addEventListener("click", (evt) =>{
     setTimeout(() => {
         trans5Step6.style.visibility = "visible";
         arr5Step6.style.visibility = "visible";
-    }, 4500);
+    }, 6500);
 });
 
 trans5Step6.addEventListener("click", (evt) =>{
@@ -1027,7 +1027,7 @@ trans7Step6.addEventListener("click", (evt) =>{
     setTimeout(() => {
         trans8Step6.style.visibility = "visible";
         arr8Step6.style.visibility = "visible";
-    }, 4500);
+    }, 6500);
 });
 
 trans8Step6.addEventListener("click", (evt) =>{
@@ -1164,7 +1164,7 @@ trans6Step7.addEventListener("click", (evt) =>{
         png2Step7.style.visibility = "visible";
         trans7Step7.style.visibility = "visible";
         arr7Step7.style.visibility = "visible";
-    }, 8000);
+    }, 9500);
 });
 
 trans7Step7.addEventListener("click", (evt) =>{
