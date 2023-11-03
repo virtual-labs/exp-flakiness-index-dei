@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
@@ -42,7 +43,7 @@ main{
     top: 30px;
     left: 100px;
     width: 690px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .instruments{
@@ -50,9 +51,9 @@ main{
     display: inline-block;
     text-align: justify;
     top: 100px;
-    left: 165px;
+    left: 175px;
     width: 610px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .instruction-main{
@@ -77,10 +78,10 @@ main{
 .instructions{
     position: absolute;
     display: inline;
-    left: 90px;
-    width: 700px;
+    left: 95px;
+    width: 690px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* IMAGES  */
