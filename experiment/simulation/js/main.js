@@ -351,6 +351,10 @@ const nextToStep9 = document.querySelector("#nextToStep9");
 
 const step9 = document.querySelector("#step9");
 const instructionsStep9 = document.querySelector("#instructionsStep9");
+const conclusion = document.querySelector("#conclusion");
+
+// images of step9
+const png1Step9 = document.querySelector("#png1Step9");
 
 
 //#########################################################################
@@ -525,6 +529,7 @@ trans6Step2.addEventListener("click", (evt) => {
     }, 2000);
 });
 
+// NOW FROM HERE, 3 Is 4 MEANS ALL THE STEP ARE SHOWN ONE STEP LESS IN PRODUCTION DUE TO STEP 3, **N HERE IS N - 1 IN PRODUCTION**
 
 // step 3
 
@@ -1309,6 +1314,7 @@ trans8Step8.addEventListener("click", (evt) =>{
 });
 
 // Step 9
+// nextToStep9.style.visibility = "visible";
 
 nextToStep9.addEventListener("click", (evt) =>{
     evt.target.style.visibility = "hidden";
@@ -1317,5 +1323,6 @@ nextToStep9.addEventListener("click", (evt) =>{
     step8.style.visibility = "hidden";
 
     step9.style.visibility = "visible";
-    instructionsStep9.textContent = "Result..."
+    png1Step9.style.visibility = "visible";
+    instructionsStep9.textContent = "Result"
 });
