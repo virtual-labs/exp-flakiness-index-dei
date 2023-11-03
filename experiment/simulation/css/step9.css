@@ -1,0 +1,30 @@
+/* Step 9 */
+
+.exp-image-section-result{
+    visibility: hidden;
+    position: absolute;
+    width: 650px;
+    top: 65px;
+    left: 75px;
+}
+
+.total-wt{
+    position: absolute;
+    margin: 0;
+    width: 350px;
+    top: 40px;
+    left: 225px;
+    font-size: large;
+    text-align: center;
+}
+
+.conclusion{
+    /* visibility: visible; */
+    position: absolute;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 500px;
+    left: 90px;
+    width: 600px;
+    text-align: justify;
+}
