@@ -360,7 +360,7 @@ const png1Step9 = document.querySelector("#png1Step9");
 //#########################################################################
 
 addEventListener("DOMContentLoaded", (evt) => {
-    startBtn.style.visibility = "visible";
+    // startBtn.style.visibility = "visible";
 });
 
 // step1 
@@ -419,7 +419,7 @@ trans3Step1.addEventListener("click", (evt) => {
 });
 
 // step2
-
+nextToStep2.style.visibility = "visible";
 nextToStep2.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
@@ -622,11 +622,13 @@ trans6Step2.addEventListener("click", (evt) => {
 
 // Step 4
 
+// nextToStep2.style.visibility = "visible";
+
 nextToStep4.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arrNext.style.visibility = "hidden";
-    // gif6Step3.style.visibility = "hidden";
-    // step3.style.visibility = "hidden";
+    png4Step2.style.visibility = "hidden";
+    step2.style.visibility = "hidden";
 
     step4.style.visibility = "visible";
     instructionsStep4.textContent = "Pass the aggregates that have retained on 20mm sieve one by one through the 25-20mm slot in flakiness gauge. Separate the  aggregates that have passed from the ones that have not passed the flakiness gauge."
