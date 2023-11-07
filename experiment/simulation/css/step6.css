@@ -4,53 +4,41 @@
 
 #trans1Step6{
     width: 40px;
-    top: 230px;
-    left: 115px;
+    top: 225px;
+    left: 120px;
 }
 
 #trans2Step6{
     width: 40px;
     top: 230px;
-    left: 180px;
+    left: 190px;
 }
 
 #trans3Step6{
     width: 40px;
-    top: 275px;
-    left: 115px;
+    top: 270px;
+    left: 120px;
 }
 
 #trans4Step6{
     width: 40px;
-    top: 275px;
-    left: 180px;
+    top: 270px;
+    left: 190px;
 }
 
 #trans5Step6{
     width: 40px;
-    top: 325px;
-    left: 115px;
+    top: 320px;
+    left: 120px;
 }
 
 #trans6Step6{
     width: 40px;
-    top: 325px;
-    left: 180px;
+    top: 320px;
+    left: 190px;
 }
 
 #trans7Step6{
-    width: 40px;
-    top: 370px;
-    left: 115px;
-}
-
-#trans8Step6{
-    width: 40px;
-    top: 370px;
-    left: 180px;
-}
-
-#trans9Step6{
     top: 160px;
     left: 485px;
     width: 250px;
@@ -60,23 +48,23 @@
 /* Arrows  */
 
 #arr1Step6{
-    top: 240px;
-    left: 80px;
+    top: 235px;
+    left: 90px;
 }
 
 #arr2Step6{
-    top: 240px;
-    left: 140px;
+    top: 235px;
+    left: 150px;
 }
 
 #arr3Step6{
-    top: 285px;
-    left: 80px;
+    top: 280px;
+    left: 90px;
 }
 
 #arr4Step6{
-    top: 285px;
-    left: 140px;
+    top: 280px;
+    left: 150px;
 }
 
 #arr5Step6{
@@ -86,20 +74,10 @@
 
 #arr6Step6{
     top: 330px;
-    left: 140px;
+    left: 150px;
 }
 
 #arr7Step6{
-    top: 380px;
-    left: 80px;
-}
-
-#arr8Step6{
-    top: 380px;
-    left: 140px;
-}
-
-#arr9Step6{
     top: 175px;
     left: 730px;
 }
