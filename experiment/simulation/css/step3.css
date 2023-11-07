@@ -1,65 +1,151 @@
-/* Step3  */
+/* Step 3  */
 
-/* TRANSBOXES  */
+/* Transboxes  */
 
 #trans1Step3{
-    top: 235px;
-    left: 110px;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    top: 155px;
+    left: 95px;
 }
 
 #trans2Step3{
-    top: 235px;
-    left: 175px;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    top: 155px;
+    left: 155px;
 }
 
 #trans3Step3{
-    top: 295px;
-    left: 110px;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    top: 195px;
+    left: 95px;
 }
 
 #trans4Step3{
-    top: 300px;
-    left: 180px;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    top: 195px;
+    left: 155px;
 }
 
 #trans5Step3{
-    top: 155px;
+    width: 40px;
+    top: 235px;
+    left: 95px;
+}
+
+#trans6Step3{
+    width: 40px;
+    top: 235px;
+    left: 155px;
+}
+
+#trans7Step3{
+    width: 40px;
+    top: 265px;
+    left: 95px;
+}
+
+#trans8Step3{
+    width: 40px;
+    top: 265px;
+    left: 155px;
+}
+
+#trans9Step3{
+    width: 40px;
+    top: 315px;
+    left: 95px;
+}
+
+#trans10Step3{
+    width: 40px;
+    top: 315px;
+    left: 155px;
+}
+
+#trans11Step3{
+    width: 40px;
+    top: 355px;
+    left: 95px;
+}
+
+#trans12Step3{
+    width: 40px;
+    top: 355px;
+    left: 155px;
+}
+
+#trans13Step3{
+    top: 160px;
     left: 485px;
     width: 250px;
     height: 70px;
 }
 
-/* ARROWS  */
+
+/* Arrows  */
 
 #arr1Step3{
-    top: 240px;
-    left: 70px;
+    top: 160px;
+    left: 50px;
 }
 
 #arr2Step3{
-    top: 240px;
-    left: 130px;
+    top: 160px;
+    left: 120px;
 }
 
 #arr3Step3{
-    top: 300px;
-    left: 60px;
+    top: 195px;
+    left: 50px;
 }
 
 #arr4Step3{
-    top: 300px;
-    left: 135px;
+    top: 195px;
+    left: 120px;
 }
 
 #arr5Step3{
-    top: 170px;
-    left: 720px;
+    top: 235px;
+    left: 50px;
 }
+
+#arr6Step3{
+    top: 235px;
+    left: 120px;
+}
+
+#arr7Step3{
+    top: 275px;
+    left: 50px;
+}
+
+#arr8Step3{
+    top: 275px;
+    left: 120px;
+}
+
+#arr9Step3{
+    top: 320px;
+    left: 50px;
+}
+
+#arr10Step3{
+    top: 320px;
+    left: 120px;
+}
+
+#arr11Step3{
+    top: 360px;
+    left: 50px;
+}
+
+#arr12Step3{
+    top: 360px;
+    left: 120px;
+}
+
+#arr13Step3{
+    top: 175px;
+    left: 730px;
+}
+
