@@ -4,7 +4,7 @@
 <b>Discipline | <b> Civil Engineering
 :--|:--|
 <b> Lab | <b> Concrete Technology
-<b> Experiment|     <b>10. Flakiness Index Test
+<b> Experiment|     <b>Flakiness Index Test
 
 ### About the Experiment 
 
