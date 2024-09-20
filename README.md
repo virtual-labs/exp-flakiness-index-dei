@@ -4,7 +4,7 @@
 <b>Discipline | <b> Civil Engineering
 :--|:--|
 <b> Lab | <b> Concrete Technology
-<b> Experiment|     <b>10. Flakiness Index Test
+<b> Experiment|     <b>Flakiness Index Test
 
 ### About the Experiment 
 
@@ -22,4 +22,4 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | <b>Varun Pal Singh | Student | Civil Engineering | Dayalbagh Educational institute  | singhvarun928@gmail.com
 2 | <b>Ana Rehman |Student | Civil Engineering | Dayalbagh Educational institute  | anarehmanana@gmail.com
-
+3 | Shyamendra Singh | Student | Agricultural Engineering | Dayalbagh Educational Institute | shyamendra.me@gmail.com
