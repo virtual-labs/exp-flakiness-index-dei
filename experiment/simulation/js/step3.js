@@ -63,7 +63,7 @@ const nextToStep4 = document.querySelector("#nextToStep4");
 
 addEventListener("DOMContentLoaded", (evt) => {
     step3.style.visibility = "visible";
-    instructionsStep3.textContent = "Pass the aggregates that have retained on 20mm sieve one by one through the 25-20mm slot in flakiness gauge. Separate the  aggregates that have passed from the ones that have not passed the flakiness gauge."
+    instructionsStep3.textContent = "Pass the aggregates that have retained on 20mm sieve one by one through the 25-20mm slot in flakiness gauge. Separate the aggregates that have passed from the ones that have not passed the flakiness gauge."
     png1Step3.style.visibility = "visible";
     arr1Step3.style.visibility = "visible";
     trans1Step3.style.visibility = "visible";

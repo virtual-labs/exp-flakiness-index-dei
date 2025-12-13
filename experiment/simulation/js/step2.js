@@ -43,7 +43,7 @@ const nextToStep3 = document.querySelector("#nextToStep3");
 
 addEventListener("DOMContentLoaded", (evt) => {
     step2.style.visibility = "visible";
-    instructionsStep2.textContent = "Assemble the sieves in descending order with the largest aperture size sieve at the top and the smallest at the bottom. Place a pan below the bottom most sieve.";
+    instructionsStep2.textContent = "Assemble the sieves in descending order with the largest aperture size sieve at the top and the smallest at the bottom. Place a pan below the bottommost sieve.";
     png1Step2.style.visibility = "visible";
     assemBtnStep2.style.visibility = "visible";
     arr1Step2.style.visibility = "visible";
@@ -74,7 +74,7 @@ trans1Step2.addEventListener("click", (evt) => {
 
     setTimeout(()=>{
         gif2Step2.style.visibility = "hidden";
-        instructionsStep2.textContent = "Cover the sieve stack with the lid and place it on the sieve shaker. Start the sieve shaker and wait for sometime."
+        instructionsStep2.textContent = "Cover the sieve stack with the lid and place it on the sieve shaker. Start the sieve shaker and wait for some time."
         png3Step2.style.visibility = "visible";
         arr3Step2.style.visibility = "visible";
         trans2Step2.style.visibility = "visible";
