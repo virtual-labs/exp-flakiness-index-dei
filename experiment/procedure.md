@@ -1,99 +1,52 @@
 ### Procedure
 
-Step 1: Initial Setup
 
-Click on the weighing balance (arrow points to it).
-Click on the tray to place it on balance (arrow points to it).
-Click the "TARE" button.
-Click the "Next Step" button.
+Step 1: Objective and Apparatus  
+To determine the flakiness index of coarse aggregates.  
 
-Step 2: Weigh Sample
+Apparatus used: sieve shaker, flakiness index gauge, aggregates, sieves of sizes 25 mm, 20 mm, 16 mm, 12.5 mm, 10 mm, and a pan.  
 
-Click on the aggregate sample container (arrow points to it).
-Click on the tray to pour aggregates (arrow points to it).
-Note the weight displayed on balance.
-Click the "Next Step" button.
+Click the Next Step button.
 
-Step 3: Arrange Sieves
+Step 2: Assemble Sieves and Sieving  
+- Assemble the sieves in descending order with the largest aperture sieve at the top and the smallest at the bottom.  
+- Place a pan below the bottommost sieve.  
+- Pour the aggregates into the sieve stack.  
+- Cover the sieve stack with a lid and place it on the sieve shaker.  
+- Start the sieve shaker and wait for the sieving process to complete.  
+- Click the Next Step button.
 
-Click on the 20mm sieve (arrow points to it).
-Click on the 16mm sieve (arrow points to it).
-Click on the 12.5mm sieve (arrow points to it).
-Click on the 10mm sieve (arrow points to it).
-Click on the 6.3mm sieve (arrow points to it).
-Click on the pan to place at bottom (arrow points to it).
-Click the "Next Step" button.
+Step 3: Test 20 mm Fraction  
+- Take aggregates retained on the 20 mm sieve.  
+- Pass each aggregate through the 25–20 mm slot of the flakiness gauge.  
+- Separate aggregates that pass through the gauge from those that do not.  
+- Click the Next Step button.
 
-Step 4: Pour Aggregates
+Step 4: Test 16 mm Fraction  
+- Take aggregates retained on the 16 mm sieve.  
+- Pass them through the 20–16 mm slot of the flakiness gauge.  
+- Separate passing and non-passing aggregates.  
+- Click the Next Step button.
 
-Click on the tray to pour sample into sieve stack (arrow points to it).
-Click on the lid to cover sieve stack (arrow points to it).
-Click the "Next Step" button.
+Step 5: Test 12.5 mm Fraction  
+- Take aggregates retained on the 12.5 mm sieve.  
+- Pass them through the 16–12.5 mm slot of the flakiness gauge.  
+- Click the Next Step button.
 
-Step 5: Start Sieving
+Step 6: Test 10 mm Fraction  
+- Take aggregates retained on the 10 mm sieve.  
+- Pass them through the 12.5–10 mm slot of the flakiness gauge.  
+- Click the Next Step button.
 
-Click on the sieve stack to place on shaker (arrow points to it).
-Click the "START" button on sieve shaker.
-Wait for sieving to complete.
-Click the "Next Step" button.
+Step 7: Test 6.3 mm Fraction  
+- Take aggregates retained on the 6.3 mm sieve.  
+- Pass them through the 10–6.3 mm slot of the flakiness gauge.  
+- Click the Next Step button.
 
-Step 6: Test 20mm Fraction
-
-Click on the 20mm sieve to pick retained aggregates (arrow points to it).
-Click on the flakiness gauge (arrow points to it).
-Click on "25-20mm slot" (arrow points to it).
-Click on aggregates to pass through slot (arrow points to it).
-Click on passing aggregates to separate (arrow points to it).
-Click on weighing balance (arrow points to it).
-Click the "Record Weight" button.
-Click the "Next Step" button.
-
-Step 7: Test 16mm Fraction
-
-Click on the 16mm sieve to pick retained aggregates (arrow points to it).
-Click on "20-16mm slot" on gauge (arrow points to it).
-Click on aggregates to pass through slot (arrow points to it).
-Click on passing aggregates to separate (arrow points to it).
-Click on weighing balance (arrow points to it).
-Click the "Record Weight" button.
-Click the "Next Step" button.
-
-Step 8: Test 12.5mm Fraction
-
-Click on the 12.5mm sieve to pick retained aggregates (arrow points to it).
-Click on "16-12.5mm slot" on gauge (arrow points to it).
-Click on aggregates to pass through slot (arrow points to it).
-Click on passing aggregates to separate (arrow points to it).
-Click on weighing balance (arrow points to it).
-Click the "Record Weight" button.
-Click the "Next Step" button.
-
-Step 9: Test 10mm Fraction
-
-Click on the 10mm sieve to pick retained aggregates (arrow points to it).
-Click on "12.5-10mm slot" on gauge (arrow points to it).
-Click on aggregates to pass through slot (arrow points to it).
-Click on passing aggregates to separate (arrow points to it).
-Click on weighing balance (arrow points to it).
-Click the "Record Weight" button.
-Click the "Next Step" button.
-
-Step 10: Test 6.3mm Fraction
-
-Click on the 6.3mm sieve to pick retained aggregates (arrow points to it).
-Click on "10-6.3mm slot" on gauge (arrow points to it).
-Click on aggregates to pass through slot (arrow points to it).
-Click on passing aggregates to separate (arrow points to it).
-Click on weighing balance (arrow points to it).
-Click the "Record Weight" button.
-Click the "Next Step" button.
-
-Step 11: View Results
-
-Click the "Calculate Flakiness Index" button.
-Click the "View Results" button.
-Click the "Note Flakiness Index %" button.
-
-Step 12: Conclusion
-
-Click the "Conclusion" button.
+Step 8: Results 
+- Click First Sample Reading.  
+- Click Second Sample Reading.  
+- Click Third Sample Reading.  
+- Click Fourth Sample Reading. 
+- Click Fifth Sample Reading.
+- Click to calculate Flakiness Index.
