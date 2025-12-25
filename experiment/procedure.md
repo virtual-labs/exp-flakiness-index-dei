@@ -1,12 +1,52 @@
 ### Procedure
 
-1. Take about a minimum number of 200 pieces of aggregate of any
-fraction.
 
-2. Sieve the sample through IS specified sieves.
+Step 1: Objective and Apparatus  
+To determine the flakiness index of coarse aggregates.  
 
-3. For separation of flaky material, each fraction of aggregate shall be gauged on a thickness gauge to determine the thickness.
+Apparatus used: sieve shaker, flakiness index gauge, aggregates, sieves of sizes 25 mm, 20 mm, 16 mm, 12.5 mm, 10 mm, and a pan.  
 
-4. Weigh the total amount of flaky material that has passed the thickness gauge to an accuracy of 0.1 % of the weight of the sample.
+Click the Next Step button.
 
-5. Flakiness index is then calculated by expressing the total weight of material passing the thickness gauge as a percentage of the total weight of the sample gauged.
+Step 2: Assemble Sieves and Sieving  
+- Assemble the sieves in descending order with the largest aperture sieve at the top and the smallest at the bottom.  
+- Place a pan below the bottommost sieve.  
+- Pour the aggregates into the sieve stack.  
+- Cover the sieve stack with a lid and place it on the sieve shaker.  
+- Start the sieve shaker and wait for the sieving process to complete.  
+- Click the Next Step button.
+
+Step 3: Test 20 mm Fraction  
+- Take aggregates retained on the 20 mm sieve.  
+- Pass each aggregate through the 25–20 mm slot of the flakiness gauge.  
+- Separate aggregates that pass through the gauge from those that do not.  
+- Click the Next Step button.
+
+Step 4: Test 16 mm Fraction  
+- Take aggregates retained on the 16 mm sieve.  
+- Pass them through the 20–16 mm slot of the flakiness gauge.  
+- Separate passing and non-passing aggregates.  
+- Click the Next Step button.
+
+Step 5: Test 12.5 mm Fraction  
+- Take aggregates retained on the 12.5 mm sieve.  
+- Pass them through the 16–12.5 mm slot of the flakiness gauge.  
+- Click the Next Step button.
+
+Step 6: Test 10 mm Fraction  
+- Take aggregates retained on the 10 mm sieve.  
+- Pass them through the 12.5–10 mm slot of the flakiness gauge.  
+- Click the Next Step button.
+
+Step 7: Test 6.3 mm Fraction  
+- Take aggregates retained on the 6.3 mm sieve.  
+- Pass them through the 10–6.3 mm slot of the flakiness gauge.  
+- Click the Next Step button.
+
+Step 8: Results 
+- Click First Sample Reading.  
+- Click Second Sample Reading.  
+- Click Third Sample Reading.  
+- Click Fourth Sample Reading. 
+- Click Fifth Sample Reading.
+- Click to calculate Flakiness Index.
