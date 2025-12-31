@@ -15,10 +15,6 @@ The flakiness index of aggregate is defined as the percentage by weight of the p
 
 Flaky particles are those aggregate pieces in which the thickness (smallest dimension) is substantially less than the width and length. When the minimum dimension is less than three-fifths (0.6 times) of the mean dimension, the particle is classified as flaky and considered undesirable for construction purposes.
 
-### Purpose
-
-To evaluate aggregate's shape characteristics and suitability for concrete and pavement construction by quantifying the proportion of flat, elongated particles that may compromise structural integrity, workability, and durability. The test ensures that aggregates meet specified shape requirements for quality construction, preventing premature failures and optimizing material performance.
-
 ### Mechanism
 
 The flakiness test identifies problematic particle shapes through dimensional assessment:
@@ -53,8 +49,6 @@ This process evaluates:
 - Workability impact: Flaky shapes increase water demand and reduce concrete flow  
 - Bonding capacity: Limited surface contact area weakens adhesion with cement paste or bitumen  
 - Durability concerns: Thin sections are more vulnerable to abrasion, weathering, and chemical attack  
-
----
 
 ### Formulas
 
