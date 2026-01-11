@@ -1,0 +1,105 @@
+/* Step 5 */
+
+/* Transboxes  */
+
+#trans1Step5{
+    width: 40px;
+    top: 230px;
+    left: 115px;
+}
+
+#trans2Step5{
+    width: 40px;
+    top: 230px;
+    left: 180px;
+}
+
+#trans3Step5{
+    width: 40px;
+    top: 275px;
+    left: 115px;
+}
+
+#trans4Step5{
+    width: 40px;
+    top: 275px;
+    left: 180px;
+}
+
+#trans5Step5{
+    width: 40px;
+    top: 325px;
+    left: 115px;
+}
+
+#trans6Step5{
+    width: 40px;
+    top: 325px;
+    left: 180px;
+}
+
+#trans7Step5{
+    width: 40px;
+    top: 370px;
+    left: 115px;
+}
+
+#trans8Step5{
+    width: 40px;
+    top: 370px;
+    left: 180px;
+}
+
+#trans9Step5{
+    top: 26.67vh;
+    left: 60.63vw;
+    width: 31.25vw;
+    height: 11.67vh;
+}
+
+/* Arrows  */
+
+#arr1Step5{
+    top: 240px;
+    left: 80px;
+}
+
+#arr2Step5{
+    top: 240px;
+    left: 140px;
+}
+
+#arr3Step5{
+    top: 285px;
+    left: 80px;
+}
+
+#arr4Step5{
+    top: 285px;
+    left: 140px;
+}
+
+#arr5Step5{
+    top: 330px;
+    left: 80px;
+}
+
+#arr6Step5{
+    top: 330px;
+    left: 140px;
+}
+
+#arr7Step5{
+    top: 380px;
+    left: 80px;
+}
+
+#arr8Step5{
+    top: 380px;
+    left: 140px;
+}
+
+#arr9Step5{
+    top: 175px;
+    left: 730px;
+}
