@@ -1,5 +1,3 @@
-### Procedure: Determination of Flakiness Index of Coarse Aggregate
-
 #### Step 1: Weighing of coarse aggregate sample
 
 • Click on the tray to place the tray on the weighing balance.  
