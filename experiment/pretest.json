@@ -72,6 +72,50 @@
      
       "correctAnswer": "b",
       "difficulty": "intermediate"
+    },
+    {
+      "question": "The thickness gauge slot opening width is typically ______ mm according to IS standards?",
+      "answers": {
+        "a": "5",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the range of aggregate sizes for which flakiness index testing is typically performed?",
+      "answers": {
+        "a": "4.75 mm to 40 mm",
+        "b": "2.36 mm to 40 mm",
+        "c": "6.3 mm to 50 mm",
+        "d": "10 mm to 63 mm"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If an aggregate does not pass through the thickness gauge, it is classified as _____?",
+      "answers": {
+        "a": "Elongated",
+        "b": "Not flaky",
+        "c": "Cubical",
+        "d": "Defective"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The flakiness index is calculated as the percentage of aggregates that pass through the thickness gauge relative to the _____ sample?",
+      "answers": {
+        "a": "Total weight",
+        "b": "Dry weight",
+        "c": "Wet weight",
+        "d": "Initial weight"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
