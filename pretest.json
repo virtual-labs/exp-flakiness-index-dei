@@ -1,0 +1,121 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The flakiness index of coarse aggregate is not conducted on sizes smaller then ___________ ? ",
+      "answers": {
+        "a": "2.36 mm",
+        "b": "4.75 mm",
+        "c": "6.3 mm",
+        "d": "5.5 mm"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the least dimension of a flaky aggregate that passes through 40 mm IS sieve and is retained on 25 mm IS sieve?",
+      "answers": {
+        "a": "18.1 mm",
+        "b": "19.5 mm",
+        "c": "15 mm",
+        "d": "16.2 mm"
+      },
+     
+      "correctAnswer": "b ",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The average least dimension of flaky aggregate is less than ____?",
+      "answers": {
+        "a": "3/5 of its mean dimensions",
+        "b": "4/5 of its mean dimensions",
+        "c": "2/3 of its mean dimensions",
+        "d": "5/6 of its mean dimensions"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which apparatus is used to determine the flakiness index?",
+      "answers": {
+        "a": "Length gauge",
+        "b": "90 micron IS sieve",
+        "c": "Thickness gauge",
+        "d": "Pycnometer"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the effect of an excess of flaky particles on the workability of concrete?",
+      "answers": {
+        "a": "Workability decreases",
+        "b": "Workability increases",
+        "c": "Both",
+        "d": "No effect"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": " Which of the following statement is correct?",
+      "answers": {
+        "a": "Flaky aggregates are very thick and require less cement paste.",
+        "b": "Flaky aggregates have less thickness and require more cement paste.",
+        "c": "Flaky aggregates have a smooth surface and decrease the water/cement ratio.",
+        "d": "Flaky aggregates are smooth and have elongated sides."
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The thickness gauge slot opening width is typically ______ mm according to IS standards?",
+      "answers": {
+        "a": "5",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the range of aggregate sizes for which flakiness index testing is typically performed?",
+      "answers": {
+        "a": "4.75 mm to 40 mm",
+        "b": "2.36 mm to 40 mm",
+        "c": "6.3 mm to 50 mm",
+        "d": "10 mm to 63 mm"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If an aggregate does not pass through the thickness gauge, it is classified as _____?",
+      "answers": {
+        "a": "Elongated",
+        "b": "Not flaky",
+        "c": "Cubical",
+        "d": "Defective"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The flakiness index is calculated as the percentage of aggregates that pass through the thickness gauge relative to the _____ sample?",
+      "answers": {
+        "a": "Total weight",
+        "b": "Dry weight",
+        "c": "Wet weight",
+        "d": "Initial weight"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}

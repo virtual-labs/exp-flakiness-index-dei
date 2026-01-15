@@ -1,0 +1,42 @@
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/main.js
+  18:7   warning  'gif4Step1' is assigned a value but never used    no-unused-vars
+  19:7   warning  'gif5Step1' is assigned a value but never used    no-unused-vars
+  20:7   warning  'gif6Step1' is assigned a value but never used    no-unused-vars
+  26:7   warning  'arr4Step1' is assigned a value but never used    no-unused-vars
+  32:7   warning  'trans4Step1' is assigned a value but never used  no-unused-vars
+  40:39  warning  'evt' is defined but never used                   no-unused-vars
+  99:40  warning  'evt' is defined but never used                   no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step2.js
+   44:39  warning  'evt' is defined but never used  no-unused-vars
+  150:40  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step3.js
+   42:7   warning  'arr14Step3' is assigned a value but never used    no-unused-vars
+   58:7   warning  'trans14Step3' is assigned a value but never used  no-unused-vars
+   64:39  warning  'evt' is defined but never used                    no-unused-vars
+  251:40  warning  'evt' is defined but never used                    no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step4.js
+   42:39  warning  'evt' is defined but never used  no-unused-vars
+  150:40  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step5.js
+   49:39  warning  'evt' is defined but never used  no-unused-vars
+  183:40  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step6.js
+   42:39  warning  'evt' is defined but never used  no-unused-vars
+  150:40  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step7.js
+   45:38  warning  'evt' is defined but never used  no-unused-vars
+  166:40  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-flakiness-index-dei/exp-flakiness-index-dei/experiment/simulation/js/step8.js
+   44:39  warning  'evt' is defined but never used  no-unused-vars
+  139:43  warning  'evt' is defined but never used  no-unused-vars
+
+✖ 23 problems (0 errors, 23 warnings)
+

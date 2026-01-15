@@ -1,0 +1,113 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following aggregate is suitable and provides maximum strength?",
+      "answers": {
+        "a": "Cubical aggregate",
+        "b": "Rounded aggregate",
+        "c": "Flaky aggregate",
+        "d": "Elongated aggregate"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "According to IRC, the flakiness index value for bituminous surface dressing should not exceed ____.",
+      "answers": {
+        "a": "15%",
+        "b": "35%",
+        "c": "25%",
+        "d": "20%"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is an example of a flaky aggregate?",
+      "answers": {
+        "a": "Laminated rock",
+        "b": "Crushed rock",
+        "c": "Desert and Wind blown flints",
+        "d": "Pit sand"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The flakiness index of the aggregates should not be more than 15%.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the flakiness index limit for cement concrete pavements according to IRC standards?",
+      "answers": {
+        "a": "25%",
+        "b": "30%",
+        "c": "15%",
+        "d": "35%"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is NOT a method used to determine flakiness index?",
+      "answers": {
+        "a": "Sieve analysis",
+        "b": "Elongation gauge method",
+        "c": "Flakiness gauge method",
+        "d": "Visual inspection only"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Flaky aggregates compared to cubical aggregates have ______ load bearing capacity.",
+      "answers": {
+        "a": "Higher",
+        "b": "Lower",
+        "c": "Equal",
+        "d": "Variable"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The elongation index and flakiness index together determine the overall ______ of aggregates.",
+      "answers": {
+        "a": "Color",
+        "b": "Size",
+        "c": "Shape",
+        "d": "Density"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For flexible pavements, the recommended maximum flakiness index is ____.",
+      "answers": {
+        "a": "10%",
+        "b": "20%",
+        "c": "30%",
+        "d": "40%"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Aggregates with high flakiness index lead to ______ durability of pavements.",
+      "answers": {
+        "a": "Improved",
+        "b": "Reduced",
+        "c": "Unchanged",
+        "d": "Maximum"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
